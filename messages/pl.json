@@ -70,7 +70,7 @@
     "steps": {
       "0": {
         "title": "Brief i cele",
-        "description": "Omawiamy Twoje wymagania, grupę docelową i oczekiwania. Poznaję Twój biznes, zanim zacznę."
+        "description": "Omawiam z Tobą Twoje wymagania, grupę docelową i oczekiwania. Poznaję Twój biznes, zanim zacznę."
       },
       "1": {
         "title": "Struktura i UX",
@@ -96,66 +96,141 @@
   },
   "pricing": {
     "title": "Cennik",
-    "subtitle": "Uczciwe ceny, przejrzyste usługi",
-    "disclaimer": "Wszystkie ceny są orientacyjnymi wartościami netto (EUR). Ostateczna cena zależy od indywidualnego zakresu projektu.",
+    "subtitle": "Przejrzyste pakiety na każdy budżet",
+    "grossLabel": "Kwota brutto:",
+    "grossLabelFrom": "Kwota brutto od:",
+    "startingFrom": "Zaczyna się od",
+    "cta": "Zapytaj o projekt",
+    "disclaimer": "Wszystkie ceny są cenami netto (+ 19% MwSt./VAT). Ostateczna cena zależy od indywidualnego zakresu projektu.",
+    "mini": {
+      "name": "MINI",
+      "description": "Dla mikrofirm i freelancerów. Prosta, estetyczna strona z kluczowymi informacjami.",
+      "price": "249",
+      "grossPrice": "296",
+      "delivery": "Termin realizacji od 7 do 14 dni."
+    },
+    "smart": {
+      "name": "SMART",
+      "description": "Strona (one-page) dla małych firm. Nowoczesny wygląd i prosta nawigacja.",
+      "price": "490",
+      "grossPrice": "583",
+      "delivery": "Termin realizacji od 14 do 30 dni.",
+      "installments": "Możliwość podziału kwoty na 2 raty."
+    },
     "business": {
-      "title": "Strona firmowa",
-      "badge": "Wizytówka",
-      "price": "1.200 – 3.500",
-      "currency": "€",
-      "unit": "Projekt",
-      "description": "Profesjonalna obecność online dla małych i średnich firm.",
-      "features": {
-        "0": "Indywidualny, responsywny design",
-        "1": "Do 5 podstron",
-        "2": "Formularz kontaktowy",
-        "3": "Podstawowa optymalizacja SEO",
-        "4": "CMS (np. WordPress)",
-        "5": "Struktura zgodna z RODO",
-        "6": "Optymalizacja mobilna"
-      },
-      "optional": {
-        "0": "Wielojęzyczność",
-        "1": "Integracja bloga",
-        "2": "Rozszerzone działania SEO",
-        "3": "Narzędzie do zgód na cookies"
-      },
-      "optionalLabel": "Opcjonalnie",
-      "cta": "Zapytaj o projekt"
+      "name": "BUSINESS",
+      "description": "Pakiet idealnie dopasowany dla małych firm, kancelarii i gabinetów lekarskich.",
+      "price": "890",
+      "grossPrice": "1.059",
+      "delivery": "Termin realizacji od 14 do 30 dni.",
+      "installments": "Możliwość podziału kwoty na 2 raty."
     },
-    "shop": {
-      "title": "Sklep internetowy",
-      "badge": "E-Commerce",
-      "price": "2.500 – 6.000",
-      "currency": "€",
-      "unit": "Projekt",
-      "description": "Skuteczny sklep online z wszystkimi ważnymi funkcjami.",
-      "features": {
-        "0": "Projekt i konfiguracja sklepu",
-        "1": "Zarządzanie produktami",
-        "2": "Integracja płatności",
-        "3": "Wysyłka i podatki",
-        "4": "Podstawowa optymalizacja SEO",
-        "5": "Szkolenie z panelu admina (podstawy)",
-        "6": "Responsywny design"
-      },
-      "optional": {
-        "0": "Zaawansowane filtry produktów",
-        "1": "Integracja z newsletterem",
-        "2": "Wielojęzyczność",
-        "3": "Automatyzacja marketingu",
-        "4": "Duże katalogi produktów (100+ produktów)",
-        "5": "Tworzenie tekstów / opisów produktów"
-      },
-      "optionalLabel": "Opcjonalnie",
-      "cta": "Zapytaj o projekt"
+    "premium": {
+      "name": "PREMIUM",
+      "bestseller": "BESTSELLER",
+      "description": "Dla wymagających. Unikalny design, zaawansowane integracje, pełne dopasowanie.",
+      "price": "3.500",
+      "grossPrice": "4.165",
+      "delivery": "Termin realizacji od 45 do 90 dni.",
+      "installments": "Możliwość podziału kwoty na 4 raty."
     },
-    "custom": {
-      "title": "Indywidualnie",
-      "badge": "Custom",
-      "description": "Masz szczególne wymagania? Przygotuję indywidualną wycenę – bezpłatnie i niezobowiązująco.",
-      "cta": "Poproś o wycenę"
+    "support": {
+      "title": "Do pakietu warto zamówić także:",
+      "description": "Pełne całodobowe wsparcie techniczne i opiekę nad stroną internetową",
+      "freeMonths": "Pierwsze 3 miesiące za darmo",
+      "thenPrice": "potem tylko",
+      "price": "70",
+      "unit": "€ netto / mc"
     }
+  },
+  "pricingFeatures": {
+    "title": "Co otrzymasz w cenie pakietu i wsparcia technicznego?",
+    "items": {
+      "0": {
+        "title": "Strona, która pracuje za Ciebie",
+        "description": "Działa na każdym urządzeniu i pozwala Ci samodzielnie wprowadzać zmiany, bez proszenia kogokolwiek o pomoc.",
+        "badge": "W pakiecie"
+      },
+      "1": {
+        "title": "Treści, które sprzedają Twoją ofertę",
+        "description": "Nie musisz pisać tekstów oferty samodzielnie – przygotuję za Ciebie komplet treści na stronę (nawet do 10 000 znaków).",
+        "badge": "W pakiecie"
+      },
+      "2": {
+        "title": "Spójny wizerunek firmy, który budzi zaufanie",
+        "description": "Otrzymasz logotyp i firmowy adres e-mail, a cała strona będzie wyglądała jak profesjonalna marka.",
+        "badge": "W pakiecie"
+      },
+      "3": {
+        "title": "Techniczne bezpieczeństwo i pełen spokój",
+        "description": "Nazwa firmy z wolną domeną .de lub .com, certyfikat SSL, hosting, backupy i zgodność z RODO są po mojej stronie – Ty zajmujesz się biznesem, ja technikaliami.",
+        "badge": "W pakiecie"
+      },
+      "4": {
+        "title": "Gotowe narzędzia, które ułatwiają kontakt i zwiększają sprzedaż",
+        "description": "Dopasowane zdjęcia, formularz kontaktowy, mapka dojazdu, opinie klientów, blog i newsletter pomagają klientom szybciej podjąć decyzję.",
+        "badge": "W pakiecie"
+      },
+      "5": {
+        "title": "Widoczność w sieci i realne wsparcie po starcie",
+        "description": "Integracje z mediami społecznościowymi, techniczne SEO, indywidualny opiekun i 30 dni na zgłaszanie zmian dają Ci pewność, że nie zostajesz z tym sam/a.",
+        "badge": "W pakiecie"
+      }
+    }
+  },
+  "guarantee": {
+    "title": "Gwarancja satysfakcji!",
+    "description": "Gwarantuję, że Twoja strona będzie działać przez cały okres naszej współpracy. Do tego przez 30 dni możesz zgłosić zmiany, które bezpłatnie uwzględnię na Twoim projekcie, a do tego zapewnię opiekę nad stroną."
+  },
+  "onlinePresence": {
+    "title": "Wszystko, czego potrzebujesz w internecie. W jednym pakiecie.",
+    "subtitle": "Jedna rozmowa wystarczy. Dowiem się, czego potrzebujesz, a potem zajmę się resztą — od strategii po działającą stronę z treściami, logo i narzędziami do pozyskiwania klientów. Ty prowadzisz firmę, ja buduję jej obecność online.",
+    "blocks": {
+      "0": {
+        "title": "Profesjonalny wizerunek",
+        "items": {
+          "0": "Teksty ofertowe dopasowane do Twojej branży",
+          "1": "Logo i spójna identyfikacja wizualna",
+          "2": "Dobrane zdjęcia i grafiki",
+          "3": "Hosting, domena i bieżąca opieka techniczna"
+        }
+      },
+      "1": {
+        "title": "Stabilna technologia",
+        "items": {
+          "0": "Szybka, wydajna strona na każdym urządzeniu",
+          "1": "Panel CMS — edytuj treści samodzielnie",
+          "2": "W pełni responsywna wersja mobilna",
+          "3": "Integracja z systemem CRM"
+        }
+      },
+      "2": {
+        "title": "Klienci od pierwszego dnia",
+        "items": {
+          "0": "Widoczność w Google od momentu startu",
+          "1": "Optymalizacja SEO w standardzie",
+          "2": "Zgodność z RODO i polityką cookies",
+          "3": "Dostępność cyfrowa zgodna z WCAG"
+        }
+      }
+    },
+    "form": {
+      "title": "Porozmawiajmy o Twoim projekcie",
+      "name": "Twoje imię",
+      "namePlaceholder": "Twoje imię",
+      "email": "Twój e-mail",
+      "emailPlaceholder": "Twój adres e-mail",
+      "phone": "Telefon",
+      "phonePlaceholder": "Numer telefonu (opcjonalnie)",
+      "message": "Twoja wiadomość",
+      "messagePlaceholder": "Opisz krótko, czego potrzebujesz...",
+      "consent": "Wyrażam zgodę na przetwarzanie moich danych osobowych w celu kontaktu i odpowiedzi na zapytanie.",
+      "submit": "Wyślij zapytanie",
+      "sending": "Wysyłanie...",
+      "success": "Dziękuję! Twoje zapytanie zostało wysłane. Odezwę się wkrótce.",
+      "error": "Wystąpił błąd. Spróbuj ponownie."
+    },
+    "stickyButton": "Napisz do mnie"
   },
   "additional": {
     "title": "Dodatkowe usługi",
@@ -165,14 +240,14 @@
       "description": "Techniczna i treściowa optymalizacja pod wyszukiwarki: czysta struktura, meta dane, optymalizacja szybkości ładowania i budowa treści pod kątem słów kluczowych."
     },
     "support": {
-      "title": "6 miesięcy wsparcia",
+      "title": "3 miesiące wsparcia",
       "description": "Po uruchomieniu wspieram Cię: pomoc przy konfiguracji sklepu, krótkie szkolenie z panelu administracyjnego, wsparcie techniczne przy pytaniach i drobnych poprawkach."
     },
     "marketing": {
-      "title": "Marketing i promocja",
-      "description": "Profesjonalna obsługa Twojej obecności online: kampanie na Facebooku i Instagramie, konfiguracja i prowadzenie Google Ads – dla większej widoczności i pozyskiwania klientów."
+      "title": "Google, Facebook, Instagram i LinkedIn Ads",
+      "description": "Sama strona to początek. Jeśli chcesz szybko dotrzeć do nowych klientów, mogę uruchomić dla Ciebie płatne kampanie w Google, na Facebooku, Instagramie i LinkedIn. Ty określasz budżet, ja celuję w tych, którzy najprawdopodobniej kupią Twoją usługę. Kampanie reklamowe od 250 € netto miesięcznie."
     },
-    "note": "Ceny usług dodatkowych są kalkulowane indywidualnie – chętnie jako miesięczny retainer lub w ramach projektu."
+    "note": "Ceny usług dodatkowych kalkuluję indywidualnie – chętnie jako miesięczny retainer lub w ramach projektu."
   },
   "portfolio": {
     "title": "Portfolio",
@@ -194,7 +269,7 @@
         "industry": "Gastronomia",
         "goal": "Nowoczesna strona z możliwością rezerwacji",
         "scope": "One-pager z menu, formularzem rezerwacji i integracją Google Maps",
-        "description": "Tradycyjna restauracja potrzebowała nowoczesnej strony, która przyciągnie gości i ułatwi rezerwacje. Skupiliśmy się na apetycznej warstwie wizualnej i prostej nawigacji.",
+        "description": "Tradycyjna restauracja potrzebowała nowoczesnej strony, która przyciągnie gości i ułatwi rezerwacje. Skupiłem się na apetycznej warstwie wizualnej i prostej nawigacji.",
         "results": {
           "0": "Wyraźnie więcej rezerwacji online",
           "1": "Lepsza lokalna widoczność w Google",
@@ -233,7 +308,7 @@
         "industry": "Żywność i bio",
         "goal": "Regionalny sklep online z produktami bio",
         "scope": "Sklep online z kategoriami, filtrami produktów, integracją newslettera i opcją dostawy lokalnej",
-        "description": "Sklep bio chciał udostępnić swój asortyment regionalnie online. Oprócz sklepu zintegrowano zapis do newslettera i opcję dostawy lokalnej.",
+        "description": "Sklep bio chciał udostępnić swój asortyment regionalnie online. Oprócz sklepu zintegrowałem zapis do newslettera i opcję dostawy lokalnej.",
         "results": {
           "0": "Nowa grupa klientów dzięki zamówieniom online",
           "1": "Silniejsze więzi z klientami przez newsletter",
@@ -249,7 +324,7 @@
     "text2": "Moje narzędzia: WordPress, własny kod (HTML, CSS, JavaScript) i nowoczesne workflow wspierane przez AI. Dzięki temu powstają strony, które nie tylko dobrze wyglądają, ale są też na bieżąco z najnowszymi standardami technicznymi.",
     "text3": "Specjalizuję się w stronach firmowych (wizytówkach) i sklepach internetowych – dopasowanych do Twojej firmy i grupy docelowej.",
     "text4": "Moje wykształcenie: studia informatyczne w Polsce, z planem ukończenia magistra w przyszłości. Połączenie wiedzy akademickiej i praktycznego doświadczenia pomaga mi tworzyć przemyślane i przyszłościowe rozwiązania.",
-    "cta": "Porozmawiajmy o Twoim projekcie",
+    "cta": "Napisz do mnie – bezpłatnie i niezobowiązująco",
     "imageAlt": "Web developer w czasie wolnym"
   },
   "faq": {
@@ -258,7 +333,7 @@
     "items": {
       "0": {
         "question": "Co jest potrzebne na start?",
-        "answer": "W zasadzie tylko pomysł i chęć do rozmowy. Podczas bezpłatnej konsultacji wspólnie ustalamy cele, zakres i harmonogram. Teksty, zdjęcia i treści mogą być dostarczone w trakcie projektu – chętnie w tym pomogę."
+        "answer": "W zasadzie tylko pomysł i chęć do rozmowy. Podczas bezpłatnej konsultacji wspólnie ustalam z Tobą cele, zakres i harmonogram. Teksty, zdjęcia i treści mogą być dostarczone w trakcie projektu – chętnie w tym pomogę."
       },
       "1": {
         "question": "Czy mogę sam edytować treści na stronie?",
@@ -266,7 +341,7 @@
       },
       "2": {
         "question": "Jak wygląda wsparcie po uruchomieniu?",
-        "answer": "Po publikacji jestem do dyspozycji w kwestiach technicznych i drobnych poprawek. W ramach ustalonego wsparcia (do 6 miesięcy) pomagam przy konfiguracji, pytaniach o panel administracyjny i drobnych zmianach."
+        "answer": "Po publikacji jestem do dyspozycji w kwestiach technicznych i drobnych poprawek. Pierwsze 3 miesiące wsparcia są za darmo, potem oferuję bieżącą opiekę od 70 € netto miesięcznie."
       },
       "3": {
         "question": "Co z hostingiem i domeną?",
@@ -278,17 +353,29 @@
       },
       "5": {
         "question": "Jak wygląda rozliczenie?",
-        "answer": "Z reguły ustalamy zaliczkę na początku projektu i resztę płatności po zakończeniu / przy uruchomieniu. Dokładne warunki omawiamy w ramach oferty – przejrzyście i uczciwie."
+        "answer": "Z reguły ustalam z Tobą zaliczkę na początku projektu i resztę płatności po zakończeniu / przy uruchomieniu. Dokładne warunki omawiam z Tobą w ramach oferty – przejrzyście i uczciwie."
       },
       "6": {
         "question": "Ile trwa realizacja?",
         "answer": "Strona firmowa jest gotowa zwykle w ok. 2 tygodnie, sklep internetowy w ok. 3 tygodnie. Faktyczny czas zależy od zakresu projektu i dostarczenia treści."
+      },
+      "7": {
+        "question": "Czy otrzymam gwarancję?",
+        "answer": "Tak, zapewniam dożywotnią gwarancję na Twoją stronę internetową. Oznacza to, że przez cały okres trwania naszej umowy opieki i wsparcia technicznego zobowiązuję się do utrzymania jej w pełnej sprawności. W razie wystąpienia jakiejkolwiek awarii gwarantuję jej szybką naprawę. Możesz więc być pewny/a, że Twoja strona będzie działać bez zarzutu."
+      },
+      "8": {
+        "question": "Czy stronę będzie można edytować i rozbudowywać?",
+        "answer": "Tak, Twoja strona będzie wyposażona w system zarządzania treścią (CMS), który pozwala na samodzielne dodawanie nowych podstron i elementów. Dzięki temu, w miarę rozwoju Twojego biznesu, będziesz mógł/a łatwo rozbudowywać swoją stronę. Możesz to robić samodzielnie, ale możesz też zlecić to mnie w ramach opieki – wszystkie zgłoszenia, które w miesiącu łącznie nie zajmą więcej niż 30 minut, wykonuję bez dodatkowych opłat."
+      },
+      "9": {
+        "question": "Czy napiszesz teksty na moją stronę?",
+        "answer": "Tak, nie musisz się martwić o treści. Jestem również copywriterem – skontaktuję się z Tobą, aby zrozumieć specyfikę Twojej oferty i stworzyć profesjonalne teksty, które w pełni oddają charakter i zalety Twojego biznesu. Dzięki temu Twoja strona nie tylko będzie wyglądała dobrze, ale również skutecznie komunikowała się z potencjalnymi klientami. Przygotowuję treści na całą stronę – nawet do 10 000 znaków."
       }
     }
   },
   "contact": {
     "title": "Kontakt",
-    "subtitle": "Porozmawiajmy o Twoim projekcie – bezpłatnie i niezobowiązująco.",
+    "subtitle": "Napisz do mnie – bezpłatnie i niezobowiązująco.",
     "emailLabel": "E-mail",
     "emailPlaceholder": "kontakt@kraftweb.studio",
     "phoneLabel": "Telefon",
@@ -335,11 +422,11 @@
       },
       "dispute": {
         "title": "Rozstrzyganie sporów",
-        "content": "Komisja Europejska udostępnia platformę do rozstrzygania sporów online (OS): https://ec.europa.eu/consumers/odr/.\nNasz adres e-mail znajdziesz powyżej w impressum.\n\nNie jesteśmy zobowiązani do udziału w postępowaniu przed organem rozstrzygania sporów konsumenckich."
+        "content": "Komisja Europejska udostępnia platformę do rozstrzygania sporów online (OS): https://ec.europa.eu/consumers/odr/.\nMój adres e-mail znajdziesz powyżej w impressum.\n\nNie jestem zobowiązany do udziału w postępowaniu przed organem rozstrzygania sporów konsumenckich."
       },
       "liability": {
         "title": "Odpowiedzialność za treści",
-        "content": "Jako usługodawca jesteśmy odpowiedzialni za własne treści na tych stronach zgodnie z ogólnymi przepisami prawa. Zgodnie z §§ 8 do 10 TMG nie jesteśmy zobowiązani do monitorowania przekazywanych lub przechowywanych informacji osób trzecich."
+        "content": "Jako usługodawca jestem odpowiedzialny za własne treści na tych stronach zgodnie z ogólnymi przepisami prawa. Zgodnie z §§ 8 do 10 TMG nie jestem zobowiązany do monitorowania przekazywanych lub przechowywanych informacji osób trzecich."
       }
     }
   },
@@ -361,11 +448,11 @@
       },
       "collection": {
         "title": "4. Gromadzenie danych na tej stronie",
-        "content": "Formularz kontaktowy: Gdy przesyłasz zapytanie przez formularz kontaktowy, Twoje dane z formularza wraz z podanymi danymi kontaktowymi są przechowywane u nas w celu obsługi zapytania i na wypadek pytań uzupełniających.\n\nPodstawa prawna: art. 6 ust. 1 lit. b RODO (działania przedumowne) lub art. 6 ust. 1 lit. f RODO (uzasadniony interes)."
+        "content": "Formularz kontaktowy: Gdy przesyłasz zapytanie przez formularz kontaktowy, Twoje dane z formularza wraz z podanymi danymi kontaktowymi są przechowywane u mnie w celu obsługi zapytania i na wypadek pytań uzupełniających.\n\nPodstawa prawna: art. 6 ust. 1 lit. b RODO (działania przedumowne) lub art. 6 ust. 1 lit. f RODO (uzasadniony interes)."
       },
       "rights": {
         "title": "5. Twoje prawa",
-        "content": "W każdej chwili masz prawo do bezpłatnej informacji o swoich przechowywanych danych, ich pochodzeniu i odbiorcach oraz celu przetwarzania, a także prawo do sprostowania, zablokowania lub usunięcia tych danych.\n\nDalsze informacje dotyczące ochrony danych możesz uzyskać u nas w dowolnym momencie."
+        "content": "W każdej chwili masz prawo do bezpłatnej informacji o swoich przechowywanych danych, ich pochodzeniu i odbiorcach oraz celu przetwarzania, a także prawo do sprostowania, zablokowania lub usunięcia tych danych.\n\nDalsze informacje dotyczące ochrony danych możesz uzyskać u mnie w dowolnym momencie."
       },
       "cookies": {
         "title": "6. Pliki cookies",

@@ -70,7 +70,7 @@
     "steps": {
       "0": {
         "title": "Brief & Ziele",
-        "description": "Wir besprechen Ihre Anforderungen, Zielgruppe und Wünsche. Ich verstehe Ihr Business, bevor ich beginne."
+        "description": "Ich bespreche mit Ihnen Ihre Anforderungen, Zielgruppe und Wünsche. Ich verstehe Ihr Business, bevor ich beginne."
       },
       "1": {
         "title": "Struktur & UX",
@@ -96,66 +96,141 @@
   },
   "pricing": {
     "title": "Preise",
-    "subtitle": "Faire Preise, transparente Leistungen",
-    "disclaimer": "Alle Preise sind unverbindliche Richtwerte (netto). Der endgültige Preis richtet sich nach dem individuellen Projektumfang.",
+    "subtitle": "Transparente Pakete für jedes Budget",
+    "grossLabel": "Bruttobetrag:",
+    "grossLabelFrom": "Bruttobetrag ab:",
+    "startingFrom": "Ab",
+    "cta": "Projekt anfragen",
+    "disclaimer": "Alle Preise sind Nettopreise (zzgl. 19 % MwSt.). Der endgültige Preis richtet sich nach dem individuellen Projektumfang.",
+    "mini": {
+      "name": "MINI",
+      "description": "Für Kleinstunternehmen und Freelancer. Schlichte, ästhetische Seite mit den wichtigsten Informationen.",
+      "price": "249",
+      "grossPrice": "296",
+      "delivery": "Lieferzeit: 7 bis 14 Tage."
+    },
+    "smart": {
+      "name": "SMART",
+      "description": "One-Page-Website für kleine Unternehmen. Modernes Design und intuitive Navigation.",
+      "price": "490",
+      "grossPrice": "583",
+      "delivery": "Lieferzeit: 14 bis 30 Tage.",
+      "installments": "Ratenzahlung in 2 Raten möglich."
+    },
     "business": {
-      "title": "Business-Website",
-      "badge": "Visitenkarte",
-      "price": "1.200 – 3.500",
-      "currency": "€",
-      "unit": "Projekt",
-      "description": "Professionelle Online-Präsenz für kleine und mittelständische Unternehmen.",
-      "features": {
-        "0": "Individuelles, responsives Design",
-        "1": "Bis zu 5 Unterseiten",
-        "2": "Kontaktformular",
-        "3": "SEO-Grundoptimierung",
-        "4": "CMS (z. B. WordPress)",
-        "5": "DSGVO-Grundstruktur",
-        "6": "Mobile Optimierung"
-      },
-      "optional": {
-        "0": "Mehrsprachigkeit",
-        "1": "Blog-Integration",
-        "2": "Erweiterte SEO-Maßnahmen",
-        "3": "Cookie-Consent-Tool"
-      },
-      "optionalLabel": "Optional buchbar",
-      "cta": "Projekt anfragen"
+      "name": "BUSINESS",
+      "description": "Ideal für kleine Unternehmen, Kanzleien und Arztpraxen.",
+      "price": "890",
+      "grossPrice": "1.059",
+      "delivery": "Lieferzeit: 14 bis 30 Tage.",
+      "installments": "Ratenzahlung in 2 Raten möglich."
     },
-    "shop": {
-      "title": "Online-Shop",
-      "badge": "E-Commerce",
-      "price": "2.500 – 6.000",
-      "currency": "€",
-      "unit": "Projekt",
-      "description": "Verkaufsstarker Online-Shop mit allen wichtigen Funktionen.",
-      "features": {
-        "0": "Shop-Design & Einrichtung",
-        "1": "Produktverwaltung",
-        "2": "Zahlungsanbindung",
-        "3": "Versand & Steuern",
-        "4": "SEO-Grundoptimierung",
-        "5": "Admin-Schulung (Basics)",
-        "6": "Responsives Design"
-      },
-      "optional": {
-        "0": "Erweiterte Produktfilter",
-        "1": "Newsletter-Integration",
-        "2": "Mehrsprachigkeit",
-        "3": "Marketing-Automatisierung",
-        "4": "Große Produktkataloge (100+ Produkte)",
-        "5": "Texterstellung / Produktbeschreibungen"
-      },
-      "optionalLabel": "Optional buchbar",
-      "cta": "Projekt anfragen"
+    "premium": {
+      "name": "PREMIUM",
+      "bestseller": "BESTSELLER",
+      "description": "Für anspruchsvolle Kunden. Einzigartiges Design, erweiterte Integrationen, volle Anpassung.",
+      "price": "3.500",
+      "grossPrice": "4.165",
+      "delivery": "Lieferzeit: 45 bis 90 Tage.",
+      "installments": "Ratenzahlung in 4 Raten möglich."
     },
-    "custom": {
-      "title": "Individuell",
-      "badge": "Custom",
-      "description": "Sie haben besondere Anforderungen? Ich erstelle Ihnen ein maßgeschneidertes Angebot – kostenlos und unverbindlich.",
-      "cta": "Angebot anfordern"
+    "support": {
+      "title": "Zum Paket empfehlenswert:",
+      "description": "Technischer Rundum-Support und Betreuung Ihrer Website rund um die Uhr",
+      "freeMonths": "Erste 3 Monate kostenlos",
+      "thenPrice": "danach nur",
+      "price": "70",
+      "unit": "€ netto / Monat"
     }
+  },
+  "pricingFeatures": {
+    "title": "Was im Paketpreis und im technischen Support enthalten ist",
+    "items": {
+      "0": {
+        "title": "Eine Website, die für Sie arbeitet",
+        "description": "Funktioniert auf jedem Gerät und ermöglicht es Ihnen, Änderungen selbstständig vorzunehmen – ohne jemanden um Hilfe bitten zu müssen.",
+        "badge": "Im Paket"
+      },
+      "1": {
+        "title": "Texte, die Ihr Angebot verkaufen",
+        "description": "Sie müssen keine Angebotstexte selbst schreiben – ich bereite einen kompletten Satz Inhalte für Ihre Website vor (bis zu 10.000 Zeichen).",
+        "badge": "Im Paket"
+      },
+      "2": {
+        "title": "Einheitliches Firmenimage, das Vertrauen schafft",
+        "description": "Sie erhalten ein Logo und eine geschäftliche E-Mail-Adresse – Ihre gesamte Website wirkt wie eine professionelle Marke.",
+        "badge": "Im Paket"
+      },
+      "3": {
+        "title": "Technische Sicherheit und volle Gelassenheit",
+        "description": "Firmenname mit freier Domain .de oder .com, SSL-Zertifikat, Hosting, Backups und DSGVO-Konformität – Sie kümmern sich um Ihr Business, ich um die Technik.",
+        "badge": "Im Paket"
+      },
+      "4": {
+        "title": "Fertige Tools für mehr Kontakt und Umsatz",
+        "description": "Passende Bilder, Kontaktformular, Anfahrtskarte, Kundenbewertungen, Blog und Newsletter helfen Ihren Kunden, schneller eine Entscheidung zu treffen.",
+        "badge": "Im Paket"
+      },
+      "5": {
+        "title": "Online-Sichtbarkeit und echte Unterstützung nach dem Start",
+        "description": "Social-Media-Integrationen, technisches SEO, persönlicher Ansprechpartner und 30 Tage für Änderungswünsche geben Ihnen die Sicherheit, dass Sie damit nicht allein sind.",
+        "badge": "Im Paket"
+      }
+    }
+  },
+  "guarantee": {
+    "title": "Zufriedenheitsgarantie!",
+    "description": "Ich garantiere, dass Ihre Website während unserer gesamten Zusammenarbeit einwandfrei funktioniert. Dazu haben Sie 30 Tage Zeit, Änderungswünsche einzureichen, die ich kostenlos in Ihr Projekt einarbeite – und darüber hinaus übernehme ich die laufende Betreuung Ihrer Website."
+  },
+  "onlinePresence": {
+    "title": "Alles, was Sie online brauchen. In einem Paket.",
+    "subtitle": "Ein Gespräch reicht. Ich erfahre, was Sie brauchen, und kümmere mich um den Rest — von der Strategie bis zur fertigen Website mit Texten, Logo und Tools zur Kundengewinnung. Sie führen Ihr Unternehmen, ich baue Ihre Online-Präsenz auf.",
+    "blocks": {
+      "0": {
+        "title": "Professionelles Erscheinungsbild",
+        "items": {
+          "0": "Webtexte passend zu Ihrer Branche",
+          "1": "Logo und einheitliche visuelle Identität",
+          "2": "Ausgewählte Bilder und Grafiken",
+          "3": "Hosting, Domain und laufende technische Betreuung"
+        }
+      },
+      "1": {
+        "title": "Stabile Technologie",
+        "items": {
+          "0": "Schnelle, leistungsstarke Website auf jedem Gerät",
+          "1": "CMS-Panel — Inhalte selbst bearbeiten",
+          "2": "Vollständig responsive Mobilversion",
+          "3": "Integration mit einem CRM-System"
+        }
+      },
+      "2": {
+        "title": "Kunden ab Tag eins",
+        "items": {
+          "0": "Sichtbarkeit bei Google ab dem Start",
+          "1": "SEO-Optimierung im Standard",
+          "2": "DSGVO- und Cookie-Konformität",
+          "3": "Digitale Barrierefreiheit nach WCAG"
+        }
+      }
+    },
+    "form": {
+      "title": "Sprechen Sie mich an",
+      "name": "Ihr Name",
+      "namePlaceholder": "Ihr Name",
+      "email": "Ihre E-Mail",
+      "emailPlaceholder": "Ihre E-Mail-Adresse",
+      "phone": "Telefon",
+      "phonePlaceholder": "Telefonnummer (optional)",
+      "message": "Ihre Nachricht",
+      "messagePlaceholder": "Beschreiben Sie kurz, was Sie brauchen...",
+      "consent": "Ich stimme der Verarbeitung meiner personenbezogenen Daten zur Kontaktaufnahme und Beantwortung meiner Anfrage zu.",
+      "submit": "Anfrage senden",
+      "sending": "Wird gesendet...",
+      "success": "Vielen Dank! Ihre Anfrage wurde gesendet. Ich melde mich in Kürze.",
+      "error": "Ein Fehler ist aufgetreten. Bitte versuchen Sie es erneut."
+    },
+    "stickyButton": "Schreiben Sie mir"
   },
   "additional": {
     "title": "Zusätzliche Leistungen",
@@ -165,14 +240,14 @@
       "description": "Technische und inhaltliche Suchmaschinenoptimierung nach Best Practices: saubere Struktur, Meta-Daten, Ladezeit-Optimierung und keyword-orientierter Content-Aufbau."
     },
     "support": {
-      "title": "6 Monate Support",
+      "title": "3 Monate Support",
       "description": "Nach dem Launch unterstütze ich Sie: Hilfe bei Shop-Konfiguration, kurze Einweisung ins Admin-Panel, technischer Support bei Fragen und kleinen Anpassungen."
     },
     "marketing": {
-      "title": "Marketing & Promotion",
-      "description": "Professionelle Betreuung Ihrer Online-Präsenz: Facebook- und Instagram-Kampagnen, Google Ads Setup und Betreuung – für mehr Sichtbarkeit und Kundengewinnung."
+      "title": "Google, Facebook, Instagram & LinkedIn Ads",
+      "description": "Die Website allein ist erst der Anfang. Wenn Sie schnell neue Kunden erreichen möchten, kann ich für Sie bezahlte Kampagnen auf Google, Facebook, Instagram und LinkedIn starten. Sie bestimmen das Budget, ich ziele auf diejenigen, die Ihre Leistung am wahrscheinlichsten kaufen. Werbekampagnen ab 250 € netto monatlich."
     },
-    "note": "Die Preise für Zusatzleistungen werden individuell kalkuliert – gerne als monatlicher Retainer oder projektbezogen."
+    "note": "Die Preise für Zusatzleistungen kalkuliere ich individuell – gerne als monatlichen Retainer oder projektbezogen."
   },
   "portfolio": {
     "title": "Portfolio",
@@ -249,7 +324,7 @@
     "text2": "Mein Werkzeugkasten: WordPress, eigener Code (HTML, CSS, JavaScript) und moderne AI-gestützte Workflows. So entstehen Websites, die nicht nur gut aussehen, sondern auch technisch auf dem neuesten Stand sind.",
     "text3": "Ich spezialisiere mich auf Business-Websites (Visitenkarten) und Online-Shops – maßgeschneidert für Ihr Unternehmen und Ihre Zielgruppe.",
     "text4": "Mein Hintergrund: Informatik-Studium in Polen, mit dem Ziel, den Master zu machen. Die Kombination aus akademischem Wissen und praktischer Erfahrung hilft mir, durchdachte und zukunftssichere Lösungen zu entwickeln.",
-    "cta": "Lassen Sie uns über Ihr Projekt sprechen",
+    "cta": "Sprechen Sie mich an – kostenlos und unverbindlich",
     "imageAlt": "Webentwickler in seiner Freizeit"
   },
   "faq": {
@@ -258,7 +333,7 @@
     "items": {
       "0": {
         "question": "Was brauche ich, um zu starten?",
-        "answer": "Im Grunde nur eine Idee und die Bereitschaft zum Gespräch. In einem kostenlosen Erstgespräch klären wir gemeinsam Ziele, Umfang und Zeitrahmen. Texte, Bilder und Inhalte können im Laufe des Projekts bereitgestellt werden – ich unterstütze Sie gerne dabei."
+        "answer": "Im Grunde nur eine Idee und die Bereitschaft zum Gespräch. In einem kostenlosen Erstgespräch klären ich mit Ihnen gemeinsam Ziele, Umfang und Zeitrahmen. Texte, Bilder und Inhalte können im Laufe des Projekts bereitgestellt werden – ich unterstütze Sie gerne dabei."
       },
       "1": {
         "question": "Kann ich die Inhalte meiner Website selbst bearbeiten?",
@@ -266,7 +341,7 @@
       },
       "2": {
         "question": "Wie sieht der Support nach dem Launch aus?",
-        "answer": "Nach der Veröffentlichung stehe ich Ihnen für technische Fragen und kleinere Anpassungen zur Verfügung. Im Rahmen des vereinbarten Supports (bis zu 6 Monate) helfe ich bei Konfiguration, Fragen zum Admin-Panel und kleinen Änderungen."
+        "answer": "Nach der Veröffentlichung stehe ich Ihnen für technische Fragen und kleinere Anpassungen zur Verfügung. Die ersten 3 Monate Support sind kostenlos, danach biete ich laufende Betreuung ab 70 € netto monatlich an."
       },
       "3": {
         "question": "Was ist mit Hosting und Domain?",
@@ -278,17 +353,29 @@
       },
       "5": {
         "question": "Wie läuft die Bezahlung ab?",
-        "answer": "In der Regel vereinbaren wir eine Anzahlung zu Projektbeginn und die Restzahlung nach Fertigstellung bzw. bei Go-Live. Die genauen Konditionen besprechen wir im Rahmen des Angebots – transparent und fair."
+        "answer": "In der Regel vereinbare ich mit Ihnen eine Anzahlung zu Projektbeginn und die Restzahlung nach Fertigstellung bzw. bei Go-Live. Die genauen Konditionen bespreche ich mit Ihnen im Rahmen des Angebots – transparent und fair."
       },
       "6": {
         "question": "Wie lange dauert die Umsetzung?",
         "answer": "Eine Business-Website ist in der Regel innerhalb von ca. 2 Wochen fertig, ein Online-Shop in ca. 3 Wochen. Die tatsächliche Dauer hängt vom Projektumfang und der Zulieferung von Inhalten ab."
+      },
+      "7": {
+        "question": "Erhalte ich eine Garantie?",
+        "answer": "Ja, ich biete eine lebenslange Garantie auf Ihre Website. Das bedeutet: Während der gesamten Laufzeit unserer Betreuungs- und Support-Vereinbarung sorge ich dafür, dass Ihre Seite einwandfrei funktioniert. Sollte eine Störung auftreten, behebe ich sie schnellstmöglich. So können Sie sicher sein, dass Ihre Website jederzeit zuverlässig läuft."
+      },
+      "8": {
+        "question": "Kann die Website nachträglich erweitert werden?",
+        "answer": "Ja, Ihre Website wird mit einem Content-Management-System ausgestattet, über das Sie selbstständig neue Unterseiten und Inhalte hinzufügen können. So wächst die Seite mit Ihrem Business mit. Sie können das selbst machen oder es mir im Rahmen der laufenden Betreuung überlassen – alle Änderungen, die im Monat zusammen nicht mehr als 30 Minuten dauern, erledige ich ohne Aufpreis."
+      },
+      "9": {
+        "question": "Schreiben Sie auch die Texte für meine Website?",
+        "answer": "Ja, Sie müssen sich um die Texte keine Sorgen machen. Ich bin auch Copywriter und kontaktiere Sie, um die Besonderheiten Ihres Angebots zu verstehen. Daraus erstelle ich professionelle Texte, die den Charakter und die Vorteile Ihres Business klar kommunizieren. Im Paket sind Texte für die gesamte Website enthalten – bis zu 10.000 Zeichen."
       }
     }
   },
   "contact": {
     "title": "Kontakt",
-    "subtitle": "Lassen Sie uns über Ihr Projekt sprechen – kostenlos und unverbindlich.",
+    "subtitle": "Sprechen Sie mich an – kostenlos und unverbindlich.",
     "emailLabel": "E-Mail",
     "emailPlaceholder": "kontakt@kraftweb.studio",
     "phoneLabel": "Telefon",
@@ -335,11 +422,11 @@
       },
       "dispute": {
         "title": "Streitschlichtung",
-        "content": "Die Europäische Kommission stellt eine Plattform zur Online-Streitbeilegung (OS) bereit: https://ec.europa.eu/consumers/odr/.\nUnsere E-Mail-Adresse finden Sie oben im Impressum.\n\nWir sind nicht bereit oder verpflichtet, an Streitbeilegungsverfahren vor einer Verbraucherschlichtungsstelle teilzunehmen."
+        "content": "Die Europäische Kommission stellt eine Plattform zur Online-Streitbeilegung (OS) bereit: https://ec.europa.eu/consumers/odr/.\nMeine E-Mail-Adresse finden Sie oben im Impressum.\n\nIch bin nicht bereit oder verpflichtet, an Streitbeilegungsverfahren vor einer Verbraucherschlichtungsstelle teilzunehmen."
       },
       "liability": {
         "title": "Haftung für Inhalte",
-        "content": "Als Diensteanbieter sind wir gemäß § 7 Abs.1 TMG für eigene Inhalte auf diesen Seiten nach den allgemeinen Gesetzen verantwortlich. Nach §§ 8 bis 10 TMG sind wir als Diensteanbieter jedoch nicht verpflichtet, übermittelte oder gespeicherte fremde Informationen zu überwachen."
+        "content": "Als Diensteanbieter bin ich gemäß § 7 Abs.1 TMG für eigene Inhalte auf diesen Seiten nach den allgemeinen Gesetzen verantwortlich. Nach §§ 8 bis 10 TMG bin ich als Diensteanbieter jedoch nicht verpflichtet, übermittelte oder gespeicherte fremde Informationen zu überwachen."
       }
     }
   },
@@ -361,11 +448,11 @@
       },
       "collection": {
         "title": "4. Datenerfassung auf dieser Website",
-        "content": "Kontaktformular: Wenn Sie uns per Kontaktformular Anfragen zukommen lassen, werden Ihre Angaben aus dem Formular inklusive der von Ihnen dort angegebenen Kontaktdaten zwecks Bearbeitung der Anfrage und für den Fall von Anschlussfragen bei uns gespeichert.\n\nRechtsgrundlage: Art. 6 Abs. 1 lit. b DSGVO (vorvertragliche Maßnahmen) bzw. Art. 6 Abs. 1 lit. f DSGVO (berechtigtes Interesse)."
+        "content": "Kontaktformular: Wenn Sie mir per Kontaktformular Anfragen zukommen lassen, werden Ihre Angaben aus dem Formular inklusive der von Ihnen dort angegebenen Kontaktdaten zwecks Bearbeitung der Anfrage und für den Fall von Anschlussfragen bei mir gespeichert.\n\nRechtsgrundlage: Art. 6 Abs. 1 lit. b DSGVO (vorvertragliche Maßnahmen) bzw. Art. 6 Abs. 1 lit. f DSGVO (berechtigtes Interesse)."
       },
       "rights": {
         "title": "5. Ihre Rechte",
-        "content": "Sie haben jederzeit das Recht auf unentgeltliche Auskunft über Ihre gespeicherten Daten, deren Herkunft und Empfänger sowie den Zweck der Datenverarbeitung und ggf. ein Recht auf Berichtigung, Sperrung oder Löschung dieser Daten.\n\nWeitere Hinweise zum Datenschutz können Sie jederzeit bei uns erfragen."
+        "content": "Sie haben jederzeit das Recht auf unentgeltliche Auskunft über Ihre gespeicherten Daten, deren Herkunft und Empfänger sowie den Zweck der Datenverarbeitung und ggf. ein Recht auf Berichtigung, Sperrung oder Löschung dieser Daten.\n\nWeitere Hinweise zum Datenschutz können Sie jederzeit bei mir erfragen."
       },
       "cookies": {
         "title": "6. Cookies",
@@ -373,7 +460,7 @@
       },
       "analytics": {
         "title": "7. Analyse-Tools und Tracking",
-        "content": "Diese Website verwendet derzeit keine Analyse-Tools oder Tracking-Dienste (z. B. Google Analytics, Matomo, Facebook Pixel).\n\nSollten in Zukunft solche Dienste eingebunden werden, werden wir diese Datenschutzerklärung entsprechend aktualisieren und – sofern erforderlich – Ihre Einwilligung gemäß Art. 6 Abs. 1 lit. a DSGVO über ein Cookie-Consent-Banner einholen, bevor Daten erhoben werden."
+        "content": "Diese Website verwendet derzeit keine Analyse-Tools oder Tracking-Dienste (z. B. Google Analytics, Matomo, Facebook Pixel).\n\nSollten in Zukunft solche Dienste eingebunden werden, werde ich diese Datenschutzerklärung entsprechend aktualisieren und – sofern erforderlich – Ihre Einwilligung gemäß Art. 6 Abs. 1 lit. a DSGVO über ein Cookie-Consent-Banner einholen, bevor Daten erhoben werden."
       }
     }
   },

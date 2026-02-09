@@ -9,7 +9,7 @@ import {
 } from "@/components/ui/accordion";
 import { ScrollAnimation } from "@/components/ScrollAnimation";
 
-const FAQ_COUNT = 7;
+const FAQ_COUNT = 10;
 
 export function FAQ() {
   const t = useTranslations("faq");

@@ -77,7 +77,7 @@ export function Portfolio() {
             return (
               <ScrollAnimation key={item.index} delay={item.index * 0.1}>
                 <div
-                  className="group cursor-pointer rounded-xl border border-border bg-card overflow-hidden hover:shadow-lg transition-all"
+                  className="group cursor-pointer rounded-xl border border-border bg-card overflow-hidden hover:shadow-lg hover:border-primary/30 transition-all"
                   onClick={() => setSelectedItem(item.index)}
                   onKeyDown={(e) => e.key === "Enter" && setSelectedItem(item.index)}
                   tabIndex={0}

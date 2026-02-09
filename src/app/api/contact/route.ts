@@ -25,7 +25,7 @@ function truncate(text: string, max: number): string {
 export async function POST(request: NextRequest) {
   try {
     const body = await request.json();
-    const { name, email, message } = body;
+    const { name, email, phone, message } = body;
 
     // --- Validation ---
     if (
@@ -41,6 +41,7 @@ export async function POST(request: NextRequest) {
 
     const trimmedName = name.trim();
     const trimmedEmail = email.trim();
+    const trimmedPhone = typeof phone === "string" ? phone.trim() : "";
     const trimmedMessage = message.trim();
 
     if (trimmedName.length < 2) {
@@ -75,7 +76,7 @@ export async function POST(request: NextRequest) {
     // --- Dev-only masked logging ---
     if (isDev) {
       console.log(
-        `[contact] ${new Date().toISOString()} | ${trimmedName} | ${maskEmail(trimmedEmail)} | "${truncate(trimmedMessage, 50)}"`
+        `[contact] ${new Date().toISOString()} | ${trimmedName} | ${maskEmail(trimmedEmail)}${trimmedPhone ? ` | tel: ${trimmedPhone.slice(0, 4)}***` : ""} | "${truncate(trimmedMessage, 50)}"`
       );
     }
 

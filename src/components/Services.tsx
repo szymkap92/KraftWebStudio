@@ -31,7 +31,7 @@ export function Services() {
         <div className="grid md:grid-cols-2 gap-8 max-w-4xl mx-auto">
           {services.map(({ key, Icon }, index) => (
             <ScrollAnimation key={key} delay={index * 0.15}>
-              <Card className="h-full hover:shadow-md transition-shadow">
+              <Card className="h-full hover:shadow-md hover:border-primary/30 transition-all">
                 <CardHeader>
                   <div className="flex items-center justify-between mb-3">
                     <div className="p-2.5 rounded-lg bg-primary/10">

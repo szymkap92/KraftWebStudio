@@ -34,7 +34,7 @@ export default async function DatenschutzPage({ params }: Props) {
 
         <h1 className="text-3xl font-bold tracking-tight mb-6">{t("title")}</h1>
 
-        <div className="rounded-lg border border-amber-200 bg-amber-50 p-4 mb-8 text-sm text-amber-800">
+        <div className="rounded-lg border border-amber-500/30 bg-amber-500/10 p-4 mb-8 text-sm text-amber-400">
           {t("notice")}
         </div>
 

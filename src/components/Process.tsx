@@ -34,7 +34,7 @@ export function Process() {
               <div className="relative group">
                 <div className="flex items-start gap-4">
                   <div className="shrink-0">
-                    <div className="flex h-12 w-12 items-center justify-center rounded-xl bg-primary/10 text-primary group-hover:bg-primary group-hover:text-primary-foreground transition-colors">
+                    <div className="flex h-12 w-12 items-center justify-center rounded-xl bg-primary/10 text-primary group-hover:bg-primary group-hover:text-primary-foreground group-hover:shadow-lg group-hover:shadow-primary/25 transition-all">
                       <Icon className="h-5 w-5" />
                     </div>
                   </div>

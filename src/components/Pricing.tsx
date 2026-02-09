@@ -1,23 +1,23 @@
 "use client";
 
 import { useTranslations } from "next-intl";
-import { Check, Sparkles } from "lucide-react";
-import { Card, CardHeader, CardTitle, CardDescription, CardContent, CardFooter } from "@/components/ui/card";
+import { Star, Headphones } from "lucide-react";
+import { Card, CardHeader, CardContent, CardFooter } from "@/components/ui/card";
 import { Badge } from "@/components/ui/badge";
 import { Button } from "@/components/ui/button";
 import { ScrollAnimation } from "@/components/ScrollAnimation";
+import { cn } from "@/lib/utils";
+
+const PACKAGES = ["mini", "smart", "business", "premium"] as const;
+const HAS_INSTALLMENTS = new Set(["smart", "business", "premium"]);
 
 export function Pricing() {
   const t = useTranslations("pricing");
 
-  const packages = [
-    { key: "business" as const, optionalCount: 4 },
-    { key: "shop" as const, optionalCount: 6 },
-  ];
-
   return (
     <section id="preise" className="py-20 sm:py-28 bg-muted/30" aria-labelledby="pricing-title">
       <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
+        {/* Header */}
         <ScrollAnimation>
           <div className="text-center max-w-2xl mx-auto mb-16">
             <h2 id="pricing-title" className="text-3xl sm:text-4xl font-bold tracking-tight">
@@ -27,70 +27,117 @@ export function Pricing() {
           </div>
         </ScrollAnimation>
 
-        <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8 max-w-5xl mx-auto">
-          {packages.map(({ key: pkg, optionalCount }, index) => (
-            <ScrollAnimation key={pkg} delay={index * 0.15}>
-              <Card className="h-full flex flex-col hover:shadow-md transition-shadow">
-                <CardHeader>
-                  <div className="flex items-center justify-between mb-2">
-                    <Badge variant="accent">{t(`${pkg}.badge`)}</Badge>
-                  </div>
-                  <CardTitle className="text-2xl">{t(`${pkg}.title`)}</CardTitle>
-                  <div className="mt-3">
-                    <span className="text-3xl font-bold text-primary">{t(`${pkg}.currency`)}{t(`${pkg}.price`)}</span>
-                    <span className="text-sm text-muted-foreground ml-2">/ {t(`${pkg}.unit`)}</span>
-                  </div>
-                  <CardDescription className="mt-2">{t(`${pkg}.description`)}</CardDescription>
-                </CardHeader>
-                <CardContent className="flex-1">
-                  <ul className="space-y-2.5">
-                    {Array.from({ length: 7 }, (_, i) => (
-                      <li key={i} className="flex items-start gap-2 text-sm">
-                        <Check className="h-4 w-4 text-primary shrink-0 mt-0.5" />
-                        {t(`${pkg}.features.${i}`)}
-                      </li>
-                    ))}
-                  </ul>
+        {/* Pricing Cards */}
+        <div className="grid sm:grid-cols-2 lg:grid-cols-4 gap-6 max-w-6xl mx-auto">
+          {PACKAGES.map((pkg, index) => {
+            const isPremium = pkg === "premium";
 
-                  <div className="mt-6 pt-4 border-t border-border">
-                    <p className="text-xs font-medium text-muted-foreground mb-2">{t(`${pkg}.optionalLabel`)}</p>
-                    <ul className="space-y-1.5">
-                      {Array.from({ length: optionalCount }, (_, i) => (
-                        <li key={i} className="flex items-start gap-2 text-xs text-muted-foreground">
-                          <Sparkles className="h-3 w-3 shrink-0 mt-0.5" />
-                          {t(`${pkg}.optional.${i}`)}
-                        </li>
-                      ))}
-                    </ul>
-                  </div>
-                </CardContent>
-                <CardFooter>
-                  <Button className="w-full" asChild>
-                    <a href="#kontakt">{t(`${pkg}.cta`)}</a>
-                  </Button>
-                </CardFooter>
-              </Card>
-            </ScrollAnimation>
-          ))}
+            return (
+              <ScrollAnimation key={pkg} delay={index * 0.1}>
+                <Card
+                  className={cn(
+                    "h-full flex flex-col relative hover:border-primary/30 transition-all",
+                    isPremium && "border-primary/40 shadow-lg shadow-primary/10"
+                  )}
+                >
+                  {isPremium && (
+                    <div className="absolute -top-3 left-1/2 -translate-x-1/2 z-10">
+                      <Badge className="bg-primary text-primary-foreground px-3 py-1 shadow-md shadow-primary/20">
+                        <Star className="h-3 w-3 mr-1 fill-current" />
+                        {t(`${pkg}.bestseller`)}
+                      </Badge>
+                    </div>
+                  )}
 
-          {/* Custom Package */}
-          <ScrollAnimation delay={0.3}>
-            <Card className="h-full flex flex-col border-primary/20 bg-accent/30 hover:shadow-md transition-shadow">
-              <CardHeader className="flex-1 flex flex-col justify-center text-center">
-                <Badge variant="accent" className="w-fit mx-auto mb-3">{t("custom.badge")}</Badge>
-                <CardTitle className="text-2xl">{t("custom.title")}</CardTitle>
-                <CardDescription className="mt-3 text-base">{t("custom.description")}</CardDescription>
-              </CardHeader>
-              <CardFooter>
-                <Button variant="secondary" className="w-full" asChild>
-                  <a href="#kontakt">{t("custom.cta")}</a>
-                </Button>
-              </CardFooter>
-            </Card>
-          </ScrollAnimation>
+                  <CardHeader className={cn("pb-2", isPremium && "pt-8")}>
+                    <p className="text-sm font-bold text-primary tracking-widest uppercase">
+                      {t(`${pkg}.name`)}
+                    </p>
+                    <p className="text-sm text-muted-foreground mt-2 min-h-[3.75rem] leading-relaxed">
+                      {t(`${pkg}.description`)}
+                    </p>
+                  </CardHeader>
+
+                  <CardContent className="flex-1 space-y-2">
+                    {/* Price */}
+                    {isPremium && (
+                      <p className="text-xs text-muted-foreground">{t("startingFrom")}</p>
+                    )}
+                    <div className="flex items-baseline gap-1.5">
+                      <span className="text-3xl sm:text-4xl font-bold text-foreground">
+                        {t(`${pkg}.price`)}
+                      </span>
+                      <span className="text-lg font-semibold text-foreground">&euro;</span>
+                    </div>
+
+                    {/* Gross price */}
+                    <p className="text-xs text-muted-foreground">
+                      {isPremium ? t("grossLabelFrom") : t("grossLabel")}{" "}
+                      {t(`${pkg}.grossPrice`)} &euro;
+                    </p>
+
+                    {/* Installments */}
+                    {HAS_INSTALLMENTS.has(pkg) && (
+                      <p className="text-xs text-primary/80 font-medium">
+                        {t(`${pkg}.installments`)}
+                      </p>
+                    )}
+
+                    {/* Delivery */}
+                    <p className="text-xs text-muted-foreground">
+                      {t(`${pkg}.delivery`)}
+                    </p>
+                  </CardContent>
+
+                  <CardFooter>
+                    <Button
+                      className="w-full"
+                      variant={isPremium ? "default" : "secondary"}
+                      asChild
+                    >
+                      <a href="#kontakt">{t("cta")}</a>
+                    </Button>
+                  </CardFooter>
+                </Card>
+              </ScrollAnimation>
+            );
+          })}
         </div>
 
-        <ScrollAnimation delay={0.4}>
+        {/* Support Add-on */}
+        <ScrollAnimation delay={0.5}>
+          <div className="mt-12 max-w-4xl mx-auto">
+            <div className="rounded-xl border border-primary/20 bg-card p-6 sm:p-8">
+              <div className="flex flex-col sm:flex-row items-start sm:items-center gap-5">
+                <div className="shrink-0 p-3 rounded-xl bg-primary/10">
+                  <Headphones className="h-7 w-7 text-primary" />
+                </div>
+                <div className="flex-1 min-w-0">
+                  <p className="text-sm font-semibold text-primary mb-1">
+                    {t("support.title")}
+                  </p>
+                  <p className="text-foreground font-medium leading-relaxed">
+                    {t("support.description")}
+                  </p>
+                  <div className="mt-3 flex flex-wrap items-center gap-3">
+                    <Badge variant="accent" className="text-xs">
+                      {t("support.freeMonths")}
+                    </Badge>
+                    <span className="text-sm text-muted-foreground">
+                      {t("support.thenPrice")}{" "}
+                      <strong className="text-foreground">
+                        {t("support.price")} {t("support.unit")}
+                      </strong>
+                    </span>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </ScrollAnimation>
+
+        {/* Disclaimer */}
+        <ScrollAnimation delay={0.6}>
           <p className="text-center text-sm text-muted-foreground mt-8 max-w-2xl mx-auto">
             {t("disclaimer")}
           </p>

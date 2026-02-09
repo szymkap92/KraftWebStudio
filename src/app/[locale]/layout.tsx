@@ -6,6 +6,7 @@ import { routing } from "@/i18n/routing";
 import { Header } from "@/components/Header";
 import { Footer } from "@/components/Footer";
 import { JsonLd } from "@/components/JsonLd";
+import { StickyContactButton } from "@/components/StickyContactButton";
 
 type Props = {
   children: ReactNode;
@@ -77,6 +78,7 @@ export default async function LocaleLayout({ children, params }: Props) {
       <Header />
       <main id="main-content">{children}</main>
       <Footer />
+      <StickyContactButton />
     </NextIntlClientProvider>
   );
 }

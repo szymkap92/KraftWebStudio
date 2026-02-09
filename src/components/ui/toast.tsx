@@ -23,8 +23,8 @@ export function Toast({ message, type, onClose }: ToastProps) {
       className={cn(
         "fixed bottom-6 right-6 z-50 max-w-sm rounded-lg border p-4 shadow-lg transition-all animate-slide-up",
         type === "success"
-          ? "border-green-200 bg-green-50 text-green-800"
-          : "border-red-200 bg-red-50 text-red-800"
+          ? "border-emerald-500/30 bg-emerald-500/10 text-emerald-400"
+          : "border-red-500/30 bg-red-500/10 text-red-400"
       )}
     >
       <div className="flex items-start gap-3">

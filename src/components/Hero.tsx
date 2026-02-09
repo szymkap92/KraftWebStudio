@@ -13,7 +13,8 @@ export function Hero() {
     <section className="relative pt-24 pb-16 sm:pt-32 sm:pb-24 overflow-hidden" aria-labelledby="hero-title">
       {/* Subtle background decoration */}
       <div className="absolute inset-0 -z-10">
-        <div className="absolute top-0 right-0 w-1/2 h-1/2 bg-accent/50 rounded-bl-[100px] opacity-60" />
+        <div className="absolute top-1/4 left-1/4 w-96 h-96 bg-primary/5 rounded-full blur-3xl" />
+        <div className="absolute top-0 right-0 w-1/2 h-1/2 bg-accent/30 rounded-bl-[100px] opacity-40" />
       </div>
 
       <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
@@ -55,7 +56,7 @@ export function Hero() {
           {/* Image Column */}
           <ScrollAnimation delay={0.2}>
             <div className="relative flex justify-center lg:justify-end">
-              <div className="relative w-full max-w-md aspect-[4/5] rounded-2xl overflow-hidden shadow-2xl border border-border">
+              <div className="relative w-full max-w-md aspect-[4/5] rounded-2xl overflow-hidden shadow-2xl shadow-primary/10 border border-border">
                 <SafeImage
                   src="/images/profesjonalne.png"
                   alt={t("imageAlt")}
