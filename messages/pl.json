@@ -1,0 +1,383 @@
+{
+  "meta": {
+    "title": "KraftWeb Studio – Strony, które sprzedają",
+    "description": "Profesjonalne strony internetowe i sklepy online dla firm w Niemczech. Szybko, porządnie, z SEO. Bezpłatna konsultacja.",
+    "ogTitle": "KraftWeb Studio – Profesjonalne strony dla Twojego biznesu",
+    "ogDescription": "Nowoczesne strony WWW i sklepy internetowe, które zdobywają klientów. Szybka realizacja, czysty kod, SEO w pakiecie."
+  },
+  "nav": {
+    "services": "Usługi",
+    "process": "Proces",
+    "pricing": "Cennik",
+    "portfolio": "Portfolio",
+    "about": "O mnie",
+    "faq": "FAQ",
+    "contact": "Kontakt",
+    "cta": "Bezpłatna konsultacja",
+    "logoAlt": "Logo KraftWeb Studio"
+  },
+  "hero": {
+    "title": "Strony, które sprzedają.",
+    "titleAccent": "Szybko. Porządnie. SEO-ready.",
+    "subtitle": "Tworzę nowoczesne strony firmowe i sklepy internetowe, które przekonują klientów – z czytelnym designem, szybkim ładowaniem i optymalizacją pod wyszukiwarki.",
+    "ctaPrimary": "Bezpłatna konsultacja",
+    "ctaSecondary": "Zobacz ofertę",
+    "trustWordpress": "WordPress / Custom Code / AI-Workflow",
+    "trustSeo": "Podstawy SEO w pakiecie",
+    "trustFast": "Szybka realizacja",
+    "trustClean": "Czyste przekazanie projektu",
+    "note": "Czas realizacji zależny od zakresu projektu.",
+    "imageAlt": "Profesjonalny web developer przy pracy"
+  },
+  "services": {
+    "title": "Usługi",
+    "subtitle": "Rozwiązania webowe dopasowane do Twojej firmy",
+    "business": {
+      "title": "Strona firmowa",
+      "badge": "Wizytówka",
+      "time": "ok. 2 tygodnie",
+      "timeLabel": "Realizacja",
+      "description": "Profesjonalna obecność online dla Twojej firmy – od one-pagera po wielostronicowy serwis.",
+      "features": {
+        "0": "Responsywny design (mobile, tablet, desktop)",
+        "1": "Formularz kontaktowy i Google Maps",
+        "2": "Podstawowa optymalizacja SEO",
+        "3": "Szybkie ładowanie strony",
+        "4": "System CMS (np. WordPress)",
+        "5": "Struktura zgodna z RODO"
+      }
+    },
+    "shop": {
+      "title": "Sklep internetowy",
+      "badge": "E-Commerce",
+      "time": "ok. 3 tygodnie",
+      "timeLabel": "Realizacja",
+      "description": "Twój własny sklep online – profesjonalny, intuicyjny i gotowy do sprzedaży.",
+      "features": {
+        "0": "Zarządzanie produktami i kategoriami",
+        "1": "Integracja płatności (np. PayPal, Stripe)",
+        "2": "Opcje dostawy i kalkulacja podatków",
+        "3": "Responsywny design sklepu",
+        "4": "Podstawowa optymalizacja SEO",
+        "5": "Panel administracyjny do samodzielnej obsługi"
+      }
+    },
+    "disclaimer": "Podane czasy są orientacyjne i mogą się różnić w zależności od zakresu projektu."
+  },
+  "process": {
+    "title": "Jak wygląda realizacja",
+    "subtitle": "Przejrzysty proces od pomysłu do uruchomienia",
+    "steps": {
+      "0": {
+        "title": "Brief i cele",
+        "description": "Omawiamy Twoje wymagania, grupę docelową i oczekiwania. Poznaję Twój biznes, zanim zacznę."
+      },
+      "1": {
+        "title": "Struktura i UX",
+        "description": "Przygotowuję propozycję struktury strony i ścieżki użytkownika – przejrzyście i z myślą o konwersji."
+      },
+      "2": {
+        "title": "Design i akceptacja",
+        "description": "Otrzymujesz projekt graficzny do uzgodnienia. Feedback i poprawki są oczywiste."
+      },
+      "3": {
+        "title": "Wdrożenie i optymalizacja",
+        "description": "Strona jest czysto zaprogramowana, zoptymalizowana pod wyszukiwarki i pod kątem szybkości."
+      },
+      "4": {
+        "title": "Testy i publikacja",
+        "description": "Dokładne testy na wszystkich urządzeniach. Potem Twoja strona idzie na żywo – terminowo i bezbłędnie."
+      },
+      "5": {
+        "title": "Wsparcie po starcie",
+        "description": "Również po uruchomieniu jestem dostępny w razie pytań, drobnych poprawek i wsparcia technicznego."
+      }
+    }
+  },
+  "pricing": {
+    "title": "Cennik",
+    "subtitle": "Uczciwe ceny, przejrzyste usługi",
+    "disclaimer": "Wszystkie ceny są orientacyjnymi wartościami netto (EUR). Ostateczna cena zależy od indywidualnego zakresu projektu.",
+    "business": {
+      "title": "Strona firmowa",
+      "badge": "Wizytówka",
+      "price": "1.200 – 3.500",
+      "currency": "€",
+      "unit": "Projekt",
+      "description": "Profesjonalna obecność online dla małych i średnich firm.",
+      "features": {
+        "0": "Indywidualny, responsywny design",
+        "1": "Do 5 podstron",
+        "2": "Formularz kontaktowy",
+        "3": "Podstawowa optymalizacja SEO",
+        "4": "CMS (np. WordPress)",
+        "5": "Struktura zgodna z RODO",
+        "6": "Optymalizacja mobilna"
+      },
+      "optional": {
+        "0": "Wielojęzyczność",
+        "1": "Integracja bloga",
+        "2": "Rozszerzone działania SEO",
+        "3": "Narzędzie do zgód na cookies"
+      },
+      "optionalLabel": "Opcjonalnie",
+      "cta": "Zapytaj o projekt"
+    },
+    "shop": {
+      "title": "Sklep internetowy",
+      "badge": "E-Commerce",
+      "price": "2.500 – 6.000",
+      "currency": "€",
+      "unit": "Projekt",
+      "description": "Skuteczny sklep online z wszystkimi ważnymi funkcjami.",
+      "features": {
+        "0": "Projekt i konfiguracja sklepu",
+        "1": "Zarządzanie produktami",
+        "2": "Integracja płatności",
+        "3": "Wysyłka i podatki",
+        "4": "Podstawowa optymalizacja SEO",
+        "5": "Szkolenie z panelu admina (podstawy)",
+        "6": "Responsywny design"
+      },
+      "optional": {
+        "0": "Zaawansowane filtry produktów",
+        "1": "Integracja z newsletterem",
+        "2": "Wielojęzyczność",
+        "3": "Automatyzacja marketingu",
+        "4": "Duże katalogi produktów (100+ produktów)",
+        "5": "Tworzenie tekstów / opisów produktów"
+      },
+      "optionalLabel": "Opcjonalnie",
+      "cta": "Zapytaj o projekt"
+    },
+    "custom": {
+      "title": "Indywidualnie",
+      "badge": "Custom",
+      "description": "Masz szczególne wymagania? Przygotuję indywidualną wycenę – bezpłatnie i niezobowiązująco.",
+      "cta": "Poproś o wycenę"
+    }
+  },
+  "additional": {
+    "title": "Dodatkowe usługi",
+    "subtitle": "Większy zasięg, wyższe przychody – również po uruchomieniu",
+    "seo": {
+      "title": "Optymalizacja SEO",
+      "description": "Techniczna i treściowa optymalizacja pod wyszukiwarki: czysta struktura, meta dane, optymalizacja szybkości ładowania i budowa treści pod kątem słów kluczowych."
+    },
+    "support": {
+      "title": "6 miesięcy wsparcia",
+      "description": "Po uruchomieniu wspieram Cię: pomoc przy konfiguracji sklepu, krótkie szkolenie z panelu administracyjnego, wsparcie techniczne przy pytaniach i drobnych poprawkach."
+    },
+    "marketing": {
+      "title": "Marketing i promocja",
+      "description": "Profesjonalna obsługa Twojej obecności online: kampanie na Facebooku i Instagramie, konfiguracja i prowadzenie Google Ads – dla większej widoczności i pozyskiwania klientów."
+    },
+    "note": "Ceny usług dodatkowych są kalkulowane indywidualnie – chętnie jako miesięczny retainer lub w ramach projektu."
+  },
+  "portfolio": {
+    "title": "Portfolio",
+    "subtitle": "Wybrane projekty i realizacje",
+    "imageAlt": "Widok projektu: {title}",
+    "filterAll": "Wszystkie",
+    "filterBusiness": "Firmowe",
+    "filterShop": "Sklepy",
+    "viewDetails": "Zobacz szczegóły",
+    "close": "Zamknij",
+    "scope": "Zakres",
+    "results": "Rezultaty",
+    "industry": "Branża",
+    "goal": "Cel",
+    "items": {
+      "0": {
+        "title": "Zum Goldenen Löwen",
+        "category": "business",
+        "industry": "Gastronomia",
+        "goal": "Nowoczesna strona z możliwością rezerwacji",
+        "scope": "One-pager z menu, formularzem rezerwacji i integracją Google Maps",
+        "description": "Tradycyjna restauracja potrzebowała nowoczesnej strony, która przyciągnie gości i ułatwi rezerwacje. Skupiliśmy się na apetycznej warstwie wizualnej i prostej nawigacji.",
+        "results": {
+          "0": "Wyraźnie więcej rezerwacji online",
+          "1": "Lepsza lokalna widoczność w Google",
+          "2": "Pozytywne opinie stałych gości"
+        }
+      },
+      "1": {
+        "title": "Schmidt Elektrotechnik",
+        "category": "business",
+        "industry": "Rzemiosło i elektrotechnika",
+        "goal": "Profesjonalna strona do pozyskiwania klientów",
+        "scope": "Wielostronicowa strona firmowa z przeglądem usług, referencjami i formularzem kontaktowym",
+        "description": "Uznana firma elektrotechniczna chciała profesjonalnie zaprezentować swoje usługi online i generować nowe zapytania. Kluczem była czytelna struktura i budowanie zaufania.",
+        "results": {
+          "0": "Bardziej profesjonalny wizerunek wobec nowych klientów",
+          "1": "Rosnąca liczba zapytań przez stronę",
+          "2": "Lepsza znajdowalność w regionie"
+        }
+      },
+      "2": {
+        "title": "Clara Mode Boutique",
+        "category": "shop",
+        "industry": "Moda i fashion",
+        "goal": "Własny sklep online dla lokalnego butiku",
+        "scope": "Sklep z kategoriami produktów, koszykiem, integracją płatności i logiką wysyłki",
+        "description": "Właścicielka butiku chciała sprzedawać swoją kolekcję również online. Sklep miał odzwierciedlać estetykę sklepu stacjonarnego i być łatwy w obsłudze.",
+        "results": {
+          "0": "Udany start w sprzedaży online",
+          "1": "Pozytywne opinie klientów o sklepie",
+          "2": "Łatwe zarządzanie produktami przez właścicielkę"
+        }
+      },
+      "3": {
+        "title": "NaturPur Bio-Laden",
+        "category": "shop",
+        "industry": "Żywność i bio",
+        "goal": "Regionalny sklep online z produktami bio",
+        "scope": "Sklep online z kategoriami, filtrami produktów, integracją newslettera i opcją dostawy lokalnej",
+        "description": "Sklep bio chciał udostępnić swój asortyment regionalnie online. Oprócz sklepu zintegrowano zapis do newslettera i opcję dostawy lokalnej.",
+        "results": {
+          "0": "Nowa grupa klientów dzięki zamówieniom online",
+          "1": "Silniejsze więzi z klientami przez newsletter",
+          "2": "Sprawniejsza obsługa zamówień"
+        }
+      }
+    }
+  },
+  "about": {
+    "title": "O mnie",
+    "subtitle": "Człowiek stojący za KraftWeb Studio",
+    "text1": "Jestem web developerem z pasji. Tworzę profesjonalne strony internetowe i sklepy online dla firm, które chcą przekonywać w sieci.",
+    "text2": "Moje narzędzia: WordPress, własny kod (HTML, CSS, JavaScript) i nowoczesne workflow wspierane przez AI. Dzięki temu powstają strony, które nie tylko dobrze wyglądają, ale są też na bieżąco z najnowszymi standardami technicznymi.",
+    "text3": "Specjalizuję się w stronach firmowych (wizytówkach) i sklepach internetowych – dopasowanych do Twojej firmy i grupy docelowej.",
+    "text4": "Moje wykształcenie: studia informatyczne w Polsce, z planem ukończenia magistra w przyszłości. Połączenie wiedzy akademickiej i praktycznego doświadczenia pomaga mi tworzyć przemyślane i przyszłościowe rozwiązania.",
+    "cta": "Porozmawiajmy o Twoim projekcie",
+    "imageAlt": "Web developer w czasie wolnym"
+  },
+  "faq": {
+    "title": "Najczęstsze pytania",
+    "subtitle": "Wszystko, co warto wiedzieć przed rozpoczęciem współpracy",
+    "items": {
+      "0": {
+        "question": "Co jest potrzebne na start?",
+        "answer": "W zasadzie tylko pomysł i chęć do rozmowy. Podczas bezpłatnej konsultacji wspólnie ustalamy cele, zakres i harmonogram. Teksty, zdjęcia i treści mogą być dostarczone w trakcie projektu – chętnie w tym pomogę."
+      },
+      "1": {
+        "question": "Czy mogę sam edytować treści na stronie?",
+        "answer": "Tak, oczywiście. Zwykle korzystam z WordPressa lub porównywalnego CMS-a, więc samodzielnie zmienisz teksty, zdjęcia i produkty. Krótkie szkolenie z obsługi systemu jest w pakiecie."
+      },
+      "2": {
+        "question": "Jak wygląda wsparcie po uruchomieniu?",
+        "answer": "Po publikacji jestem do dyspozycji w kwestiach technicznych i drobnych poprawek. W ramach ustalonego wsparcia (do 6 miesięcy) pomagam przy konfiguracji, pytaniach o panel administracyjny i drobnych zmianach."
+      },
+      "3": {
+        "question": "Co z hostingiem i domeną?",
+        "answer": "Hosting i domena nie są wliczone w cenę, ale chętnie doradzę przy wyborze odpowiedniego dostawcy i pomogę w konfiguracji. Typowe koszty: od ok. 5–15 € miesięcznie za hosting, od ok. 10–15 € rocznie za domenę .de."
+      },
+      "4": {
+        "question": "Co konkretnie dostaję w ramach SEO?",
+        "answer": "Każda strona zawiera podstawową optymalizację SEO: czystą strukturę strony, meta tytuły i opisy, szybkie ładowanie, optymalizację mobilną i technicznie czysty kod. Dla dalszych działań SEO (np. strategia słów kluczowych, optymalizacja treści) oferuję osobne pakiety."
+      },
+      "5": {
+        "question": "Jak wygląda rozliczenie?",
+        "answer": "Z reguły ustalamy zaliczkę na początku projektu i resztę płatności po zakończeniu / przy uruchomieniu. Dokładne warunki omawiamy w ramach oferty – przejrzyście i uczciwie."
+      },
+      "6": {
+        "question": "Ile trwa realizacja?",
+        "answer": "Strona firmowa jest gotowa zwykle w ok. 2 tygodnie, sklep internetowy w ok. 3 tygodnie. Faktyczny czas zależy od zakresu projektu i dostarczenia treści."
+      }
+    }
+  },
+  "contact": {
+    "title": "Kontakt",
+    "subtitle": "Porozmawiajmy o Twoim projekcie – bezpłatnie i niezobowiązująco.",
+    "emailLabel": "E-mail",
+    "emailPlaceholder": "kontakt@kraftweb.studio",
+    "phoneLabel": "Telefon",
+    "phonePlaceholder": "+49 123 456 7890",
+    "form": {
+      "name": "Twoje imię",
+      "namePlaceholder": "Jan Kowalski",
+      "email": "Twój e-mail",
+      "emailPlaceholder": "jan@przyklad.pl",
+      "message": "Twoja wiadomość",
+      "messagePlaceholder": "Opisz krótko swój projekt lub pytania...",
+      "consent": "Wyrażam zgodę na przetwarzanie moich danych w celu kontaktu i odpowiedzi na zapytanie.",
+      "submit": "Wyślij wiadomość",
+      "sending": "Wysyłanie...",
+      "success": "Dziękuję! Twoja wiadomość została wysłana. Odpowiadam zwykle w ciągu 24–48 godzin.",
+      "error": "Niestety wystąpił błąd. Spróbuj ponownie lub napisz do mnie bezpośrednio na e-mail."
+    },
+    "alternative": "Lub napisz bezpośrednio:",
+    "responseTime": "Zwykły czas odpowiedzi: 24–48 godzin"
+  },
+  "footer": {
+    "brand": "KraftWeb Studio",
+    "claim": "Strony, które sprzedają. Szybko. Porządnie. SEO-ready.",
+    "impressum": "Impressum",
+    "datenschutz": "Polityka prywatności",
+    "rights": "Wszelkie prawa zastrzeżone.",
+    "madeWith": "Stworzone z pasją do dobrego webdesignu"
+  },
+  "impressum": {
+    "title": "Impressum",
+    "notice": "Szablon – Proszę skonsultować z prawnikiem i uzupełnić swoimi danymi.",
+    "sections": {
+      "responsible": {
+        "title": "Dane zgodnie z § 5 TMG",
+        "content": "[Imię i Nazwisko]\n[Ulica i numer]\n[Kod pocztowy i miejscowość]\nNiemcy"
+      },
+      "contact": {
+        "title": "Kontakt",
+        "content": "Telefon: [Twój numer telefonu]\nE-mail: [Twój adres e-mail]"
+      },
+      "tax": {
+        "title": "Numer identyfikacji podatkowej",
+        "content": "Numer identyfikacji podatkowej zgodnie z § 27 a ustawy o podatku obrotowym:\n[Twój numer VAT lub informacja o zwolnieniu]"
+      },
+      "dispute": {
+        "title": "Rozstrzyganie sporów",
+        "content": "Komisja Europejska udostępnia platformę do rozstrzygania sporów online (OS): https://ec.europa.eu/consumers/odr/.\nNasz adres e-mail znajdziesz powyżej w impressum.\n\nNie jesteśmy zobowiązani do udziału w postępowaniu przed organem rozstrzygania sporów konsumenckich."
+      },
+      "liability": {
+        "title": "Odpowiedzialność za treści",
+        "content": "Jako usługodawca jesteśmy odpowiedzialni za własne treści na tych stronach zgodnie z ogólnymi przepisami prawa. Zgodnie z §§ 8 do 10 TMG nie jesteśmy zobowiązani do monitorowania przekazywanych lub przechowywanych informacji osób trzecich."
+      }
+    }
+  },
+  "datenschutz": {
+    "title": "Polityka prywatności",
+    "notice": "Szablon – Proszę skonsultować z prawnikiem i dostosować do własnego przetwarzania danych.",
+    "sections": {
+      "overview": {
+        "title": "1. Ochrona danych w pigułce",
+        "content": "Poniższe informacje przedstawiają w prosty sposób, co dzieje się z Twoimi danymi osobowymi podczas korzystania z tej strony. Dane osobowe to wszystkie dane, za pomocą których można Cię osobiście zidentyfikować."
+      },
+      "responsible": {
+        "title": "2. Administrator danych",
+        "content": "Administratorem danych na tej stronie jest:\n\n[Imię i Nazwisko]\n[Ulica i numer]\n[Kod pocztowy i miejscowość]\nE-mail: [Twój adres e-mail]\nTelefon: [Twój numer telefonu]"
+      },
+      "hosting": {
+        "title": "3. Hosting",
+        "content": "Ta strona jest hostowana przez [dostawca hostingu]. Szczegóły znajdziesz w polityce prywatności dostawcy.\n\nPodstawą prawną jest art. 6 ust. 1 lit. f RODO lub art. 6 ust. 1 lit. b RODO."
+      },
+      "collection": {
+        "title": "4. Gromadzenie danych na tej stronie",
+        "content": "Formularz kontaktowy: Gdy przesyłasz zapytanie przez formularz kontaktowy, Twoje dane z formularza wraz z podanymi danymi kontaktowymi są przechowywane u nas w celu obsługi zapytania i na wypadek pytań uzupełniających.\n\nPodstawa prawna: art. 6 ust. 1 lit. b RODO (działania przedumowne) lub art. 6 ust. 1 lit. f RODO (uzasadniony interes)."
+      },
+      "rights": {
+        "title": "5. Twoje prawa",
+        "content": "W każdej chwili masz prawo do bezpłatnej informacji o swoich przechowywanych danych, ich pochodzeniu i odbiorcach oraz celu przetwarzania, a także prawo do sprostowania, zablokowania lub usunięcia tych danych.\n\nDalsze informacje dotyczące ochrony danych możesz uzyskać u nas w dowolnym momencie."
+      },
+      "cookies": {
+        "title": "6. Pliki cookies",
+        "content": "Ta strona używa technicznie niezbędnych plików cookies w celu zapewnienia funkcjonalności strony (np. wybór języka). Te cookies są przechowywane na podstawie art. 6 ust. 1 lit. f RODO.\n\nPliki cookies marketingowe lub śledzące nie są obecnie stosowane."
+      },
+      "analytics": {
+        "title": "7. Narzędzia analityczne i śledzenie",
+        "content": "Ta strona nie korzysta obecnie z żadnych narzędzi analitycznych ani usług śledzenia (np. Google Analytics, Matomo, Facebook Pixel).\n\nJeśli w przyszłości takie usługi zostaną wdrożone, niniejsza polityka prywatności zostanie odpowiednio zaktualizowana, a Twoja zgoda zgodnie z art. 6 ust. 1 lit. a RODO zostanie uzyskana za pośrednictwem bannera cookie-consent przed rozpoczęciem zbierania danych."
+      }
+    }
+  },
+  "legal": {
+    "backToHome": "Powrót do strony głównej"
+  }
+}

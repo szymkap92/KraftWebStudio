@@ -1,0 +1,383 @@
+{
+  "meta": {
+    "title": "KraftWeb Studio – Websites, die verkaufen",
+    "description": "Professionelle Webentwicklung für Unternehmen in Deutschland. Business-Websites und Online-Shops – schnell, sauber, SEO-ready. Kostenlose Erstberatung.",
+    "ogTitle": "KraftWeb Studio – Professionelle Websites für Ihr Business",
+    "ogDescription": "Moderne Websites und Online-Shops, die Kunden gewinnen. Schnelle Umsetzung, sauberer Code, SEO-Basics inklusive."
+  },
+  "nav": {
+    "services": "Leistungen",
+    "process": "Prozess",
+    "pricing": "Preise",
+    "portfolio": "Portfolio",
+    "about": "Über mich",
+    "faq": "FAQ",
+    "contact": "Kontakt",
+    "cta": "Kostenloses Erstgespräch",
+    "logoAlt": "KraftWeb Studio Logo"
+  },
+  "hero": {
+    "title": "Websites, die verkaufen.",
+    "titleAccent": "Schnell. Sauber. SEO-ready.",
+    "subtitle": "Ich entwickle moderne Business-Websites und Online-Shops, die Ihre Kunden überzeugen – mit klarem Design, schneller Ladezeit und suchmaschinenoptimierter Struktur.",
+    "ctaPrimary": "Kostenloses Erstgespräch",
+    "ctaSecondary": "Angebot ansehen",
+    "trustWordpress": "WordPress / Custom Code / AI-Workflow",
+    "trustSeo": "SEO-Basics inklusive",
+    "trustFast": "Schnelle Umsetzung",
+    "trustClean": "Saubere Übergabe",
+    "note": "Umsetzungsdauer abhängig vom Projektumfang.",
+    "imageAlt": "Professioneller Webentwickler bei der Arbeit"
+  },
+  "services": {
+    "title": "Leistungen",
+    "subtitle": "Passgenaue Web-Lösungen für Ihr Unternehmen",
+    "business": {
+      "title": "Business-Website",
+      "badge": "Visitenkarte",
+      "time": "ca. 2 Wochen",
+      "timeLabel": "Umsetzung",
+      "description": "Die professionelle Online-Präsenz für Ihr Unternehmen – vom One-Pager bis zur mehrseitigen Website.",
+      "features": {
+        "0": "Responsives Design (Mobil, Tablet, Desktop)",
+        "1": "Kontaktformular & Google Maps",
+        "2": "SEO-Grundoptimierung",
+        "3": "Schnelle Ladezeiten",
+        "4": "CMS-Integration (z. B. WordPress)",
+        "5": "DSGVO-konforme Grundstruktur"
+      }
+    },
+    "shop": {
+      "title": "Online-Shop",
+      "badge": "E-Commerce",
+      "time": "ca. 3 Wochen",
+      "timeLabel": "Umsetzung",
+      "description": "Ihr eigener Online-Shop – professionell, benutzerfreundlich und bereit zum Verkaufen.",
+      "features": {
+        "0": "Produktverwaltung & Kategorien",
+        "1": "Zahlungsintegration (z. B. PayPal, Stripe)",
+        "2": "Versandoptionen & Steuerberechnung",
+        "3": "Responsives Shop-Design",
+        "4": "SEO-Grundoptimierung",
+        "5": "Admin-Panel zur Selbstverwaltung"
+      }
+    },
+    "disclaimer": "Die angegebenen Zeiten sind Richtwerte und können je nach Projektumfang variieren."
+  },
+  "process": {
+    "title": "So läuft Ihr Projekt ab",
+    "subtitle": "Transparenter Ablauf von der Idee bis zum Go-Live",
+    "steps": {
+      "0": {
+        "title": "Brief & Ziele",
+        "description": "Wir besprechen Ihre Anforderungen, Zielgruppe und Wünsche. Ich verstehe Ihr Business, bevor ich beginne."
+      },
+      "1": {
+        "title": "Struktur & UX",
+        "description": "Ich erstelle einen Vorschlag für Seitenstruktur und Nutzerführung – klar und conversionorientiert."
+      },
+      "2": {
+        "title": "Design & Freigabe",
+        "description": "Sie erhalten einen Design-Entwurf zur Abstimmung. Feedback und Änderungen sind selbstverständlich."
+      },
+      "3": {
+        "title": "Umsetzung & Optimierung",
+        "description": "Die Website wird sauber programmiert, für Suchmaschinen optimiert und auf Geschwindigkeit getrimmt."
+      },
+      "4": {
+        "title": "Tests & Go-Live",
+        "description": "Umfangreiche Tests auf allen Geräten. Danach geht Ihre Website live – pünktlich und fehlerfrei."
+      },
+      "5": {
+        "title": "Support nach dem Start",
+        "description": "Auch nach dem Launch stehe ich für Fragen, kleine Anpassungen und technischen Support bereit."
+      }
+    }
+  },
+  "pricing": {
+    "title": "Preise",
+    "subtitle": "Faire Preise, transparente Leistungen",
+    "disclaimer": "Alle Preise sind unverbindliche Richtwerte (netto). Der endgültige Preis richtet sich nach dem individuellen Projektumfang.",
+    "business": {
+      "title": "Business-Website",
+      "badge": "Visitenkarte",
+      "price": "1.200 – 3.500",
+      "currency": "€",
+      "unit": "Projekt",
+      "description": "Professionelle Online-Präsenz für kleine und mittelständische Unternehmen.",
+      "features": {
+        "0": "Individuelles, responsives Design",
+        "1": "Bis zu 5 Unterseiten",
+        "2": "Kontaktformular",
+        "3": "SEO-Grundoptimierung",
+        "4": "CMS (z. B. WordPress)",
+        "5": "DSGVO-Grundstruktur",
+        "6": "Mobile Optimierung"
+      },
+      "optional": {
+        "0": "Mehrsprachigkeit",
+        "1": "Blog-Integration",
+        "2": "Erweiterte SEO-Maßnahmen",
+        "3": "Cookie-Consent-Tool"
+      },
+      "optionalLabel": "Optional buchbar",
+      "cta": "Projekt anfragen"
+    },
+    "shop": {
+      "title": "Online-Shop",
+      "badge": "E-Commerce",
+      "price": "2.500 – 6.000",
+      "currency": "€",
+      "unit": "Projekt",
+      "description": "Verkaufsstarker Online-Shop mit allen wichtigen Funktionen.",
+      "features": {
+        "0": "Shop-Design & Einrichtung",
+        "1": "Produktverwaltung",
+        "2": "Zahlungsanbindung",
+        "3": "Versand & Steuern",
+        "4": "SEO-Grundoptimierung",
+        "5": "Admin-Schulung (Basics)",
+        "6": "Responsives Design"
+      },
+      "optional": {
+        "0": "Erweiterte Produktfilter",
+        "1": "Newsletter-Integration",
+        "2": "Mehrsprachigkeit",
+        "3": "Marketing-Automatisierung",
+        "4": "Große Produktkataloge (100+ Produkte)",
+        "5": "Texterstellung / Produktbeschreibungen"
+      },
+      "optionalLabel": "Optional buchbar",
+      "cta": "Projekt anfragen"
+    },
+    "custom": {
+      "title": "Individuell",
+      "badge": "Custom",
+      "description": "Sie haben besondere Anforderungen? Ich erstelle Ihnen ein maßgeschneidertes Angebot – kostenlos und unverbindlich.",
+      "cta": "Angebot anfordern"
+    }
+  },
+  "additional": {
+    "title": "Zusätzliche Leistungen",
+    "subtitle": "Mehr Reichweite, mehr Umsatz – auch nach dem Launch",
+    "seo": {
+      "title": "SEO-Optimierung",
+      "description": "Technische und inhaltliche Suchmaschinenoptimierung nach Best Practices: saubere Struktur, Meta-Daten, Ladezeit-Optimierung und keyword-orientierter Content-Aufbau."
+    },
+    "support": {
+      "title": "6 Monate Support",
+      "description": "Nach dem Launch unterstütze ich Sie: Hilfe bei Shop-Konfiguration, kurze Einweisung ins Admin-Panel, technischer Support bei Fragen und kleinen Anpassungen."
+    },
+    "marketing": {
+      "title": "Marketing & Promotion",
+      "description": "Professionelle Betreuung Ihrer Online-Präsenz: Facebook- und Instagram-Kampagnen, Google Ads Setup und Betreuung – für mehr Sichtbarkeit und Kundengewinnung."
+    },
+    "note": "Die Preise für Zusatzleistungen werden individuell kalkuliert – gerne als monatlicher Retainer oder projektbezogen."
+  },
+  "portfolio": {
+    "title": "Portfolio",
+    "subtitle": "Ausgewählte Projekte und Referenzen",
+    "imageAlt": "Projektansicht: {title}",
+    "filterAll": "Alle",
+    "filterBusiness": "Business",
+    "filterShop": "Shop",
+    "viewDetails": "Details ansehen",
+    "close": "Schließen",
+    "scope": "Umfang",
+    "results": "Ergebnisse",
+    "industry": "Branche",
+    "goal": "Ziel",
+    "items": {
+      "0": {
+        "title": "Zum Goldenen Löwen",
+        "category": "business",
+        "industry": "Gastronomie",
+        "goal": "Moderne Online-Präsenz mit Reservierungsmöglichkeit",
+        "scope": "One-Pager mit Speisekarte, Reservierungsformular und Google-Maps-Integration",
+        "description": "Ein traditionsreiches Restaurant brauchte eine zeitgemäße Website, die Gäste anspricht und Reservierungen vereinfacht. Der Fokus lag auf appetitlicher Bildsprache und einfacher Navigation.",
+        "results": {
+          "0": "Deutlich mehr Online-Reservierungen",
+          "1": "Bessere lokale Sichtbarkeit bei Google",
+          "2": "Positive Rückmeldungen der Stammgäste"
+        }
+      },
+      "1": {
+        "title": "Schmidt Elektrotechnik",
+        "category": "business",
+        "industry": "Handwerk & Elektro",
+        "goal": "Professionelle Website zur Kundengewinnung",
+        "scope": "Mehrseitige Business-Website mit Leistungsübersicht, Referenzen und Kontaktformular",
+        "description": "Ein etablierter Elektrobetrieb wollte seine Dienstleistungen professionell online präsentieren und neue Kundenanfragen generieren. Klare Struktur und Vertrauensaufbau standen im Fokus.",
+        "results": {
+          "0": "Professionellerer Auftritt gegenüber Neukunden",
+          "1": "Steigende Kontaktanfragen über die Website",
+          "2": "Verbesserte Auffindbarkeit in der Region"
+        }
+      },
+      "2": {
+        "title": "Clara Mode Boutique",
+        "category": "shop",
+        "industry": "Mode & Fashion",
+        "goal": "Eigener Online-Shop für lokale Modeboutique",
+        "scope": "Online-Shop mit Produktkategorien, Warenkorb, Zahlungsanbindung und Versandlogik",
+        "description": "Eine inhabergeführte Boutique wollte ihre Kollektion auch online verkaufen. Der Shop sollte die Ästhetik des Ladengeschäfts widerspiegeln und einfach zu bedienen sein.",
+        "results": {
+          "0": "Erfolgreicher Einstieg in den Online-Verkauf",
+          "1": "Positives Kundenfeedback zum Shop-Erlebnis",
+          "2": "Einfache Produktverwaltung durch die Inhaberin"
+        }
+      },
+      "3": {
+        "title": "NaturPur Bio-Laden",
+        "category": "shop",
+        "industry": "Lebensmittel & Bio",
+        "goal": "Regionaler Online-Shop für Bio-Produkte",
+        "scope": "Online-Shop mit Kategorien, Produktfiltern, Newsletter-Anbindung und lokaler Lieferoption",
+        "description": "Ein Bio-Laden wollte sein Sortiment regional online verfügbar machen. Neben dem Shop wurde eine Newsletter-Anmeldung und eine lokale Lieferoption integriert.",
+        "results": {
+          "0": "Neue Kundengruppe durch Online-Bestellungen",
+          "1": "Stärkere Kundenbindung durch den Newsletter",
+          "2": "Effizientere Bestellabwicklung"
+        }
+      }
+    }
+  },
+  "about": {
+    "title": "Über mich",
+    "subtitle": "Der Mensch hinter KraftWeb Studio",
+    "text1": "Ich bin Webentwickler aus Leidenschaft. Ich erstelle professionelle Websites und Online-Shops für Unternehmen, die online überzeugen wollen.",
+    "text2": "Mein Werkzeugkasten: WordPress, eigener Code (HTML, CSS, JavaScript) und moderne AI-gestützte Workflows. So entstehen Websites, die nicht nur gut aussehen, sondern auch technisch auf dem neuesten Stand sind.",
+    "text3": "Ich spezialisiere mich auf Business-Websites (Visitenkarten) und Online-Shops – maßgeschneidert für Ihr Unternehmen und Ihre Zielgruppe.",
+    "text4": "Mein Hintergrund: Informatik-Studium in Polen, mit dem Ziel, den Master zu machen. Die Kombination aus akademischem Wissen und praktischer Erfahrung hilft mir, durchdachte und zukunftssichere Lösungen zu entwickeln.",
+    "cta": "Lassen Sie uns über Ihr Projekt sprechen",
+    "imageAlt": "Webentwickler in seiner Freizeit"
+  },
+  "faq": {
+    "title": "Häufige Fragen",
+    "subtitle": "Alles, was Sie vor der Zusammenarbeit wissen sollten",
+    "items": {
+      "0": {
+        "question": "Was brauche ich, um zu starten?",
+        "answer": "Im Grunde nur eine Idee und die Bereitschaft zum Gespräch. In einem kostenlosen Erstgespräch klären wir gemeinsam Ziele, Umfang und Zeitrahmen. Texte, Bilder und Inhalte können im Laufe des Projekts bereitgestellt werden – ich unterstütze Sie gerne dabei."
+      },
+      "1": {
+        "question": "Kann ich die Inhalte meiner Website selbst bearbeiten?",
+        "answer": "Ja, absolut. Ich setze in der Regel WordPress oder ein vergleichbares CMS ein, sodass Sie Texte, Bilder und Produkte selbstständig ändern können. Eine kurze Einweisung ins System ist inklusive."
+      },
+      "2": {
+        "question": "Wie sieht der Support nach dem Launch aus?",
+        "answer": "Nach der Veröffentlichung stehe ich Ihnen für technische Fragen und kleinere Anpassungen zur Verfügung. Im Rahmen des vereinbarten Supports (bis zu 6 Monate) helfe ich bei Konfiguration, Fragen zum Admin-Panel und kleinen Änderungen."
+      },
+      "3": {
+        "question": "Was ist mit Hosting und Domain?",
+        "answer": "Hosting und Domain sind nicht im Preis enthalten, aber ich berate Sie gerne bei der Auswahl eines passenden Anbieters und unterstütze bei der Einrichtung. Typische Kosten: ab ca. 5–15 € pro Monat für Hosting, ab ca. 10–15 € pro Jahr für eine .de-Domain."
+      },
+      "4": {
+        "question": "Was bekomme ich beim Thema SEO konkret?",
+        "answer": "Jede Website enthält eine SEO-Grundoptimierung: saubere Seitenstruktur, Meta-Titel und -Beschreibungen, schnelle Ladezeiten, mobile Optimierung und technisch sauberen Code. Für weitergehende SEO-Maßnahmen (z. B. Keyword-Strategie, Content-Optimierung) biete ich separate Pakete an."
+      },
+      "5": {
+        "question": "Wie läuft die Bezahlung ab?",
+        "answer": "In der Regel vereinbaren wir eine Anzahlung zu Projektbeginn und die Restzahlung nach Fertigstellung bzw. bei Go-Live. Die genauen Konditionen besprechen wir im Rahmen des Angebots – transparent und fair."
+      },
+      "6": {
+        "question": "Wie lange dauert die Umsetzung?",
+        "answer": "Eine Business-Website ist in der Regel innerhalb von ca. 2 Wochen fertig, ein Online-Shop in ca. 3 Wochen. Die tatsächliche Dauer hängt vom Projektumfang und der Zulieferung von Inhalten ab."
+      }
+    }
+  },
+  "contact": {
+    "title": "Kontakt",
+    "subtitle": "Lassen Sie uns über Ihr Projekt sprechen – kostenlos und unverbindlich.",
+    "emailLabel": "E-Mail",
+    "emailPlaceholder": "kontakt@kraftweb.studio",
+    "phoneLabel": "Telefon",
+    "phonePlaceholder": "+49 123 456 7890",
+    "form": {
+      "name": "Ihr Name",
+      "namePlaceholder": "Max Mustermann",
+      "email": "Ihre E-Mail",
+      "emailPlaceholder": "max@beispiel.de",
+      "message": "Ihre Nachricht",
+      "messagePlaceholder": "Beschreiben Sie kurz Ihr Projekt oder Ihre Fragen...",
+      "consent": "Ich stimme zu, dass meine Angaben zur Kontaktaufnahme und Beantwortung meiner Anfrage verarbeitet werden.",
+      "submit": "Nachricht senden",
+      "sending": "Wird gesendet...",
+      "success": "Vielen Dank! Ihre Nachricht wurde gesendet. Ich melde mich in der Regel innerhalb von 24–48 Stunden.",
+      "error": "Leider ist ein Fehler aufgetreten. Bitte versuchen Sie es erneut oder schreiben Sie mir direkt per E-Mail."
+    },
+    "alternative": "Oder schreiben Sie mir direkt:",
+    "responseTime": "Übliche Antwortzeit: 24–48 Stunden"
+  },
+  "footer": {
+    "brand": "KraftWeb Studio",
+    "claim": "Websites, die verkaufen. Schnell. Sauber. SEO-ready.",
+    "impressum": "Impressum",
+    "datenschutz": "Datenschutz",
+    "rights": "Alle Rechte vorbehalten.",
+    "madeWith": "Entwickelt mit Leidenschaft für gutes Webdesign"
+  },
+  "impressum": {
+    "title": "Impressum",
+    "notice": "Template – Bitte mit einem Rechtsberater abgleichen und mit Ihren Daten ergänzen.",
+    "sections": {
+      "responsible": {
+        "title": "Angaben gemäß § 5 TMG",
+        "content": "[Vor- und Nachname]\n[Straße und Hausnummer]\n[PLZ und Ort]\nDeutschland"
+      },
+      "contact": {
+        "title": "Kontakt",
+        "content": "Telefon: [Ihre Telefonnummer]\nE-Mail: [Ihre E-Mail-Adresse]"
+      },
+      "tax": {
+        "title": "Umsatzsteuer-ID",
+        "content": "Umsatzsteuer-Identifikationsnummer gemäß § 27 a Umsatzsteuergesetz:\n[Ihre USt-IdNr. oder Hinweis auf Kleinunternehmerregelung]"
+      },
+      "dispute": {
+        "title": "Streitschlichtung",
+        "content": "Die Europäische Kommission stellt eine Plattform zur Online-Streitbeilegung (OS) bereit: https://ec.europa.eu/consumers/odr/.\nUnsere E-Mail-Adresse finden Sie oben im Impressum.\n\nWir sind nicht bereit oder verpflichtet, an Streitbeilegungsverfahren vor einer Verbraucherschlichtungsstelle teilzunehmen."
+      },
+      "liability": {
+        "title": "Haftung für Inhalte",
+        "content": "Als Diensteanbieter sind wir gemäß § 7 Abs.1 TMG für eigene Inhalte auf diesen Seiten nach den allgemeinen Gesetzen verantwortlich. Nach §§ 8 bis 10 TMG sind wir als Diensteanbieter jedoch nicht verpflichtet, übermittelte oder gespeicherte fremde Informationen zu überwachen."
+      }
+    }
+  },
+  "datenschutz": {
+    "title": "Datenschutzerklärung",
+    "notice": "Template – Bitte mit einem Rechtsberater abgleichen und an Ihre konkrete Datenverarbeitung anpassen.",
+    "sections": {
+      "overview": {
+        "title": "1. Datenschutz auf einen Blick",
+        "content": "Die folgenden Hinweise geben einen einfachen Überblick darüber, was mit Ihren personenbezogenen Daten passiert, wenn Sie diese Website besuchen. Personenbezogene Daten sind alle Daten, mit denen Sie persönlich identifiziert werden können."
+      },
+      "responsible": {
+        "title": "2. Verantwortliche Stelle",
+        "content": "Verantwortlich für die Datenverarbeitung auf dieser Website ist:\n\n[Vor- und Nachname]\n[Straße und Hausnummer]\n[PLZ und Ort]\nE-Mail: [Ihre E-Mail-Adresse]\nTelefon: [Ihre Telefonnummer]"
+      },
+      "hosting": {
+        "title": "3. Hosting",
+        "content": "Diese Website wird bei [Hosting-Anbieter] gehostet. Details entnehmen Sie der Datenschutzerklärung des Anbieters.\n\nDie Nutzung erfolgt auf Grundlage von Art. 6 Abs. 1 lit. f DSGVO bzw. Art. 6 Abs. 1 lit. b DSGVO."
+      },
+      "collection": {
+        "title": "4. Datenerfassung auf dieser Website",
+        "content": "Kontaktformular: Wenn Sie uns per Kontaktformular Anfragen zukommen lassen, werden Ihre Angaben aus dem Formular inklusive der von Ihnen dort angegebenen Kontaktdaten zwecks Bearbeitung der Anfrage und für den Fall von Anschlussfragen bei uns gespeichert.\n\nRechtsgrundlage: Art. 6 Abs. 1 lit. b DSGVO (vorvertragliche Maßnahmen) bzw. Art. 6 Abs. 1 lit. f DSGVO (berechtigtes Interesse)."
+      },
+      "rights": {
+        "title": "5. Ihre Rechte",
+        "content": "Sie haben jederzeit das Recht auf unentgeltliche Auskunft über Ihre gespeicherten Daten, deren Herkunft und Empfänger sowie den Zweck der Datenverarbeitung und ggf. ein Recht auf Berichtigung, Sperrung oder Löschung dieser Daten.\n\nWeitere Hinweise zum Datenschutz können Sie jederzeit bei uns erfragen."
+      },
+      "cookies": {
+        "title": "6. Cookies",
+        "content": "Diese Website verwendet technisch notwendige Cookies, um die Funktionalität der Website sicherzustellen (z. B. Sprachauswahl). Diese Cookies werden auf Grundlage von Art. 6 Abs. 1 lit. f DSGVO gespeichert.\n\nMarketing- oder Tracking-Cookies werden derzeit nicht eingesetzt."
+      },
+      "analytics": {
+        "title": "7. Analyse-Tools und Tracking",
+        "content": "Diese Website verwendet derzeit keine Analyse-Tools oder Tracking-Dienste (z. B. Google Analytics, Matomo, Facebook Pixel).\n\nSollten in Zukunft solche Dienste eingebunden werden, werden wir diese Datenschutzerklärung entsprechend aktualisieren und – sofern erforderlich – Ihre Einwilligung gemäß Art. 6 Abs. 1 lit. a DSGVO über ein Cookie-Consent-Banner einholen, bevor Daten erhoben werden."
+      }
+    }
+  },
+  "legal": {
+    "backToHome": "Zurück zur Startseite"
+  }
+}
